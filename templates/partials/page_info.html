@@ -15,4 +15,8 @@
   // inline configurations
   const date = new Date(); 
   document.getElementById("time").innerHTML = new Intl.DateTimeFormat('fa-u-ca-persian', { dateStyle: 'full' }).format(date);
+
+  const readingTimeElement = document.getElementById("read-time");
+  const readingTimeNumber = parseFloat(readingTimeElement.textContent); 
+  readingTimeElement.innerHTML = readingTimeNumber.toLocaleString('fa') + ' دقیقه'
 </script>
