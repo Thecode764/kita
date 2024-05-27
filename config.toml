@@ -1,5 +1,5 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "https://thecode764.github.io/kita/public"
+base_url = "https://thecode764.github.io/kita/"
 
 # The site title and description; used in feeds by default.
 title = "کیتا"
