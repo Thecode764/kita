@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa">
+    <title>کیتا</title>
+    <subtitle>یک تم زیبا و ساده برای بلاگ Zola.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-27T00:00:00+00:00</updated>
+    <id>https://thecode764.github.io/kita/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>خوش آمدید</title>
+        <published>2024-05-27T00:00:00+00:00</published>
+        <updated>2024-05-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Thecode764
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/welcome/"/>
+        <id>https://thecode764.github.io/kita/welcome/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/welcome/">&lt;p&gt;خوش آمدید&lt;&#x2F;p&gt;
+&lt;p&gt;اولین پست در بلاگ&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;کد را اینجا قرار دهید
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;nwn&quot;&gt;عنوان&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;nwn-1&quot;&gt;عنوان ۱&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;nwn-2&quot;&gt;عنوان ۲&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;nwn-3&quot;&gt;عنوان ۳&lt;&#x2F;h3&gt;
+</content>
+        
+    </entry>
+</feed>
