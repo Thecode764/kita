@@ -14,7 +14,7 @@
 
   {% if config.extra.profile.name %}
   <div>
-    <h1 class="mb-2 text-3xl font-bold">{{ config.extra.profile.name }}</h1>
+    <span class="mb-2 text-3xl font-bold">{{ config.extra.profile.name }}</span>
     <div class="mb-2 break-words">
       {{ config.extra.profile.bio | default(value=`A blog by ` ~ config.extra.profile.name) }}
     </div>

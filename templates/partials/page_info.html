@@ -2,7 +2,7 @@
   {% if page.date %}
   <time>{{ page.date | date }}</time>
   <span class="mx-1">&middot;</span>
-  <span>{{ page.reading_time }}min</span>
+  <span>{{ page.reading_time }} دقیقه</span>
   {% endif %}<!---->
   {% set single_author = page.extra.author | default(value=config.author) %}
   <!---->

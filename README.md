@@ -1,6 +1,6 @@
 # Kita
 
-Kita is a clean, elegant and simple blog theme for Zola.
+Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
 
 This theme is based on Hugo theme [hugo-paper](https://github.com/nanxiaobei/hugo-paper) with some features added.
 
