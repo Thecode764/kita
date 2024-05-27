@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://thecode764.github.io/kita/</loc>
+        <loc>https://thecode764.github.io/kita/public/</loc>
     </url>
     <url>
-        <loc>https://thecode764.github.io/kita/about/</loc>
+        <loc>https://thecode764.github.io/kita/public/about/</loc>
     </url>
     <url>
-        <loc>https://thecode764.github.io/kita/archive/</loc>
+        <loc>https://thecode764.github.io/kita/public/archive/</loc>
     </url>
     <url>
-        <loc>https://thecode764.github.io/kita/page/1/</loc>
+        <loc>https://thecode764.github.io/kita/public/page/1/</loc>
     </url>
     <url>
-        <loc>https://thecode764.github.io/kita/projects/</loc>
+        <loc>https://thecode764.github.io/kita/public/projects/</loc>
     </url>
     <url>
-        <loc>https://thecode764.github.io/kita/tags/</loc>
+        <loc>https://thecode764.github.io/kita/public/tags/</loc>
     </url>
     <url>
-        <loc>https://thecode764.github.io/kita/welcome/</loc>
+        <loc>https://thecode764.github.io/kita/public/welcome/</loc>
         <lastmod>2024-05-27</lastmod>
     </url>
 </urlset>

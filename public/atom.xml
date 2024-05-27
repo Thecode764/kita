@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa">
     <title>کیتا</title>
     <subtitle>یک تم زیبا و ساده برای بلاگ Zola.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita"/>
+    <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/public/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/public"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2024-05-27T00:00:00+00:00</updated>
-    <id>https://thecode764.github.io/kita/atom.xml</id>
+    <id>https://thecode764.github.io/kita/public/atom.xml</id>
     <entry xml:lang="fa">
         <title>خوش آمدید</title>
         <published>2024-05-27T00:00:00+00:00</published>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/welcome/"/>
-        <id>https://thecode764.github.io/kita/welcome/</id>
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/public/welcome/"/>
+        <id>https://thecode764.github.io/kita/public/welcome/</id>
         
-        <content type="html" xml:base="https://thecode764.github.io/kita/welcome/">&lt;p&gt;خوش آمدید&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://thecode764.github.io/kita/public/welcome/">&lt;p&gt;خوش آمدید&lt;&#x2F;p&gt;
 &lt;p&gt;اولین پست در بلاگ&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;کد را اینجا قرار دهید
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
