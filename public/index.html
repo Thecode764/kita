@@ -298,17 +298,22 @@
 
   <div class="text-sm antialiased opacity-60">
   
-  <time>2024-05-27</time>
+  <time id="time"></time>
   <span class="mx-1">&middot;</span>
-  <span>1 دقیقه</span>
-  <!---->
+  <span id="read-time">1 دقیقه</span>
   
-  <!---->
+  
   
   <span class="mx-1">&middot;</span>
   <span>Thecode764</span>
   
 </div>
+
+<script>
+  // inline configurations
+  const date = new Date(); 
+  document.getElementById("time").innerHTML = new Intl.DateTimeFormat('fa-u-ca-persian', { dateStyle: 'full' }).format(date);
+</script>
 
 
   <a class="absolute inset-0 text-[0]" href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;welcome&#x2F;">خوش آمدید</a>

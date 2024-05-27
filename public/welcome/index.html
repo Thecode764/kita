@@ -201,17 +201,22 @@
     <h1 class="!my-0 pb-2.5">خوش آمدید</h1>
     <div class="text-sm antialiased opacity-60">
   
-  <time>2024-05-27</time>
+  <time id="time"></time>
   <span class="mx-1">&middot;</span>
-  <span>1 دقیقه</span>
-  <!---->
+  <span id="read-time">1 دقیقه</span>
   
-  <!---->
+  
   
   <span class="mx-1">&middot;</span>
   <span>Thecode764</span>
   
 </div>
+
+<script>
+  // inline configurations
+  const date = new Date(); 
+  document.getElementById("time").innerHTML = new Intl.DateTimeFormat('fa-u-ca-persian', { dateStyle: 'full' }).format(date);
+</script>
 
   </header>
 

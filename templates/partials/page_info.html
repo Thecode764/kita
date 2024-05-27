@@ -1,13 +1,18 @@
 <div class="text-sm antialiased opacity-60">
   {% if page.date %}
-  <time>{{ page.date | date }}</time>
+  <time id="time"></time>
   <span class="mx-1">&middot;</span>
-  <span>{{ page.reading_time }} دقیقه</span>
-  {% endif %}<!---->
+  <span id="read-time">{{ page.reading_time }} دقیقه</span>
+  {% endif %}
   {% set single_author = page.extra.author | default(value=config.author) %}
-  <!---->
   {% if single_author %}
   <span class="mx-1">&middot;</span>
   <span>{{ single_author }}</span>
   {% endif %}
 </div>
+
+<script>
+  // inline configurations
+  const date = new Date(); 
+  document.getElementById("time").innerHTML = new Intl.DateTimeFormat('fa-u-ca-persian', { dateStyle: 'full' }).format(date);
+</script>
