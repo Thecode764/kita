@@ -221,7 +221,7 @@
     class="mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow dark:bg-white/[15%]"
   >
     <img
-      class="dark:invert my-0 aspect-square w-16 rounded-full !bg-black/5 hover:animate-spin"
+      class="dark:invert my-0 aspect-square w-16 rounded-full !bg-black/5 animate-spin"
       src="https://thecode764.github.io/kita/icons/github.svg"
       alt="کیتا - تم زولا"
     />
@@ -298,7 +298,7 @@
 
   <div class="text-sm antialiased opacity-60">
   
-  <time id="time"></time>
+  <time id="time">1403-03-07</time>
   <span class="mx-1">&middot;</span>
   <span id="read-time">1 دقیقه</span>
   
@@ -310,13 +310,9 @@
 </div>
 
 <script>
-  // inline configurations
-  const date = new Date(); 
-  document.getElementById("time").innerHTML = new Intl.DateTimeFormat('fa-u-ca-persian', { dateStyle: 'full' }).format(date);
-
   const readingTimeElement = document.getElementById("read-time");
   const readingTimeNumber = parseFloat(readingTimeElement.textContent); 
-  readingTimeElement.innerHTML = readingTimeNumber.toLocaleString('fa') + ' دقیقه'
+  readingTimeElement.innerHTML = readingTimeNumber.toLocaleString('fa') + ' دقیقه';
 </script>
 
 

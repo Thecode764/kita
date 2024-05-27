@@ -1,5 +1,5 @@
 +++
-title = "Archive"
+title = "آرشیو ها"
 path = "archive"
 template = "archive.html"
 [extra]

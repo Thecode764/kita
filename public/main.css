@@ -1362,6 +1362,16 @@ body {
   flex-basis: 100%;
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1846,7 +1856,7 @@ article {
 }
 
 body {
-  font-family: Vazir;
+  font-family: Vazir, sans-serif;
 }
 
 .dark\:prose-invert:is(.dark *) {
@@ -1876,16 +1886,6 @@ body {
 
 .last-of-type\:mb-0:last-of-type {
   margin-bottom: 0px;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.hover\:animate-spin:hover {
-  animation: spin 1s linear infinite;
 }
 
 .hover\:underline:hover {

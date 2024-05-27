@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Vazir;
+  font-family: Vazir, sans-serif;
 }
 
 @layer base {
