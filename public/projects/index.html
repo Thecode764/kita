@@ -440,25 +440,19 @@
 
     <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
   <div class="mr-auto basis-full lg:basis-1/2">
-    &copy; 2020 -  2024
-    <a class="link" href="https://thecode764.github.io/kita"
-      >Thecode764</a
-    >
-     |<!---->
-    <!---->
-    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
-      CC BY-SA 4.0
-    </a>
-    <!---->
+    <p id="date"></p>
     
   </div>
   <div class="flex basis-full lg:basis-1/2 lg:justify-end">
-    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank"
-      >طراحی شده توسط Zola</a
-    >
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">طراحی شده توسط زولا</a>
     <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ کیتا</a>
   </div>
 </footer>
+<script>
+let options = { year: 'numeric'};
+let today = new Date().toLocaleDateString('fa-IR', options);
+document.getElementById("date").innerHTML = `&copy; ${today}`
+</script>
 
   </body>
 </html>

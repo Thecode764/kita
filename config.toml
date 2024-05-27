@@ -6,7 +6,7 @@ title = "کیتا"
 description = "یک تم زیبا و ساده برای بلاگ Zola."
 
 # The default site author.
-author = "Thecode764"
+author = "آرتین کریمی"
 
 # The default language; used in feeds.
 default_language = "fa"
@@ -111,8 +111,7 @@ url = "$BASE_URL/about"
 
 # The page footer options.
 [extra.footer]
-since = 2020
-license = "CC BY-SA 4.0"
+since = 2024
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 
 # The giscus comment options, only available when comment is enabled.
