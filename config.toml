@@ -49,7 +49,7 @@ math = false
 # Enable mermaid support globally.
 mermaid = false
 # Enable comment support globally.
-comment = false
+comment = true
 # The URL of social image.
 social_image = "icons/github.svg"
 
