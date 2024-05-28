@@ -114,13 +114,13 @@ license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 [extra.giscus]
 repo = "Thecode764/kita"
 repo_id = "R_kgDOMBFtNQ"
-category = "Show and tell"
-category_id = "DIC_kwDOMBFtNc4Cfp"
+category = "General"
+category_id = "DIC_kwDOMBFtNc4Cfp-K"
 mapping = "pathname"
 strict = 0
 reactions_enabled = 1
 emit_metadata = 0
 input_position = "bottom"
 theme = "dark"
-lang = "en"
-loading = "fast"
+lang = "fa"
+loading = "lazy"
