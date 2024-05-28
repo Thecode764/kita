@@ -82,19 +82,11 @@ avatar_invert = true
 # The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
 [[extra.profile.social]]
 name = "github"
-url = "https://github.com/st1020/kita"
-
-[[extra.profile.social]]
-name = "twitter"
-url = "https://github.com/st1020/kita"
+url = "https://github.com/Thecode764/kita"
 
 [[extra.profile.social]]
 name = "rss"
 url = "$BASE_URL/atom.xml"
-
-[[extra.profile.social]]
-name = "instagram"
-url = "https://github.com/st1020/kita"
 
 # The top menu.
 [[extra.menu]]
