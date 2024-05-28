@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa">
+    <title>کیتا</title>
+    <subtitle>یک تم زیبا و ساده برای بلاگ Zola.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>1403-03-08T00:00:00+00:00</updated>
+    <id>https://thecode764.github.io/kita/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>درباره تم کیتا</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/help/"/>
+        <id>https://thecode764.github.io/kita/help/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/help/">&lt;p&gt;تم کیتا یک تم چینی زیبا و ساده برای بلاگ ساز زولا است&lt;&#x2F;p&gt;
+&lt;p&gt;این تم اولین بار در سال ۲۰۲۳ عرضه شده است و با استقبال زیادی در برنامه نویسان ایرانی مواجه شده است.&lt;&#x2F;p&gt;
+&lt;p&gt;اکثرا دارند از این تم در ایران استفاده میکنند. اما تم بهتری ولی شبیه به کیتا با نام کاغذ  وجود دارد. تم کاغذ از تم کیتا کمی قدیمی تر است. ولی من تا به حال کسی را ندیده ام که از تم کاغذ استفاده کند&lt;&#x2F;p&gt;
+&lt;p&gt;استفاده از تم کیتا بسیار راحت است کافیست با دستور زیر ریپازیتوری را دانلود کنید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;git clone https:&#x2F;&#x2F;github.com&#x2F;st1020&#x2F;kita
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;بعد اینکار کافیست به دایرکتوری اصلی پروژه کیتا بروید سپس بلاگ خود را طراحی کنید&lt;&#x2F;p&gt;
+&lt;p&gt;با دستور زیر خروجی را در مرورگر ببینید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola serve
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;حتما باید برنامه getzola در کامپیوتر&#x2F;لپتاپ شما نصب باشد تا خروجی بگیرید&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chnd-fwrkh-z-tm-khyt-wjwd-drd&quot;&gt;چند فورک از تم کیتا وجود دارد؟&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;github&#x2F;forks&#x2F;st1020&#x2F;kita&quot; alt=&quot;Fork&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fwrkh-hy-trjmh-shdh-z-khyt-khdm-hstnd&quot;&gt;فورک های ترجمه شده از کیتا کدام هستند؟&lt;&#x2F;h2&gt;
+&lt;p&gt;در حال حاضر در سال ۲۰۲۴ که ۷ فورک تنها وجود دارد خیر فکر نمیکنیم ترجمه باشد&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ay-tm-khyt-trjmh-frsy-drd&quot;&gt;آیا تم کیتا ترجمه فارسی دارد؟&lt;&#x2F;h2&gt;
+&lt;p&gt;بله تم کیتا یک ترجمه فارسی دارد که همین پروژه ای است که مشاهده میکنید
+در پست بعدی شما را با نصب کیتا ی فارسی آشنا خواهیم کرد&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tm-frsy-khyt-chh-chyz-hyy-r-drwn-khwd-drd&quot;&gt;تم فارسی کیتا چه چیز هایی را درون خود دارد&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;تاریخ فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;اعداد فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;راستچین و چپ چین&lt;&#x2F;li&gt;
+&lt;li&gt;فونت وزیر&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>تم فارسی کیتا</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/"/>
+        <id>https://thecode764.github.io/kita/how-to-setup-kita-farsi/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/how-to-setup-kita-farsi/">&lt;p&gt;سلام در این مقاله شما را با نحوه فعال کردن کیتا ی فارسی آشنا میکنیم&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pysh-nyz&quot;&gt;پیش نیاز&lt;&#x2F;h2&gt;
+&lt;p&gt;پیش نیاز خاصی وجود ندارد&lt;&#x2F;p&gt;
+&lt;p&gt;فقط getzola را نصب کنید&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ay-khyt-y-frsy-ykh-nskhh-rsmy-z-khyt-st&quot;&gt;آیا کیتا ی فارسی یک نسخه رسمی از کیتا است؟&lt;&#x2F;h2&gt;
+&lt;p&gt;خیر. این فقط یک پروژه است که از تم اصلی کیتا فورک شده و با استفاده از کلمات فارسی و فونت وزیر توانسته کیتا را به طور کامل به فارسی ترجمه کند.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ay-bry-stfdh-z-yn-tm-byd-pwl-prdkht-khnym&quot;&gt;آیا برای استفاده از این تم باید پول پرداخت کنیم؟&lt;&#x2F;h2&gt;
+&lt;p&gt;خیر. این یک پروژه آزاد و متن باز است. شما میتوانید در توسعه این پروژه به ما کمک کنید تنها کافیست این مقاله را تا آخر بخوانید که به شما از صفر تا صد توضیح دهیم.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nhwh-nsb-getzola&quot;&gt;نحوه نصب getzola&lt;&#x2F;h2&gt;
+&lt;p&gt;اینجا چند روش برای نصب زولا را برای شما گذاشته ایم.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;arch-lynwkhs-mnjrw-w-dygrn&quot;&gt;آرچ لینوکس&#x2F;مانجارو&#x2F;و دیگران&lt;&#x2F;h3&gt;
+&lt;p&gt;برای نصب در توزیع های لینوکس آرچ بیس کافیست دستور زیر را بزنید&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; pacman&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -S&lt;&#x2F;span&gt;&lt;span&gt; zola
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;بعد اینکار رمز کامپیوتر&#x2F;لپتاپ خود را وارد کنید. بعد با نصب موافقت کنید.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dbyn-wbwntw-w-dygrny&quot;&gt;دبیان&#x2F;اوبونتو&#x2F;و دیگرانی&lt;&#x2F;h3&gt;
+&lt;p&gt;من شنیده ام که میتوانید با اسنپ-استور زولا را در دبیان و اوبونتو و بقیه توزیع های بر پایه اوبونتو&#x2F;دبیان نصب کنید.
+&lt;strong&gt;اول مطم‌ءن شوید که اسنپ-استور به درستی نصب شده است&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; snap install zola&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --edge
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;با این دستور میتوانید زولا را در دبیان&#x2F;اوبونتو و دیگر توزیع های بر پایه دبیان&#x2F;اوبونتو نصب کنید.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wyndwz&quot;&gt;ویندوز&lt;&#x2F;h3&gt;
+&lt;p&gt;ویندوز را باید از بخش نسخه های زولا دانلود کنید.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&#x2F;releases&quot;&gt;نسخه ها&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;بعد با استرکت کردن فایل و سپس باز کردن فایل و نصب کردن. زولا با موفقیت نصب میشود&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nhwh-nsb-khyt-y-frsy&quot;&gt;نحوه نصب کیتا ی فارسی&lt;&#x2F;h2&gt;
+&lt;p&gt;نصب کیتا ی فارسی مانند کیتا اصلی با submodule یا clon کردن صورت میگیرد&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bh-rwsh-khlwn-khrdn&quot;&gt;به روش کلون کردن&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;bh-rwsh-sb-mjwl&quot;&gt;به روش ساب ماژول&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; submodule add https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita.git
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;بعد اینکه ریپو را کلون یا به صورت ساب ماژول دانلود کردید مراحل بعدی را طی کنید&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shrw-stfdh&quot;&gt;شروع استفاده&lt;&#x2F;h2&gt;
+&lt;p&gt;استفاده از کیتا ی فارسی &lt;strong&gt;دقیقا&lt;&#x2F;strong&gt; مثل همان کیتا اصلی است هیچ تغییری در سینتکس نیست&lt;&#x2F;p&gt;
+&lt;p&gt;تنها مورد های زیر اضافه شده&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;فونت وزیر&lt;&#x2F;li&gt;
+&lt;li&gt;تاریخ فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;اعداد فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;تغییرات کوچکی در استایل&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;همانطور که میبینید &lt;strong&gt;هیچ تغییری&lt;&#x2F;strong&gt; در &lt;strong&gt;سینتکس&lt;&#x2F;strong&gt; اعمال &lt;strong&gt;نشده است&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;مطمءنا قبل از رسیدن به این بخش بلاگ ساز زولا را نصب کرده اید. و ریپو را هم کلون یا به صورت ساب ماژول دانلود کردید. حال نوبت این است که شروع کنیم.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; kita
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;همانطور که میبینید دایرکتوری خود را به کیتا ی فارسی تغییر میدهید&lt;&#x2F;p&gt;
+&lt;p&gt;حال وقت این است که تست کنیم. و مطمءن شویم به طور درست کلون یا به صورت ساب ماژول دانلود کرده ایم.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola serve
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;با این دستور یک پورت لوکال هاست برای شما درست میشود به آن لینک بروید سپس میتوانید یک نمونه از کیتا ی فارسی را ببینید&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shrw-nwshtn&quot;&gt;شروع نوشتن&lt;&#x2F;h2&gt;
+&lt;p&gt;به فایل های دیگر کاری نداشته باشید. تنها تمرکز خود را در پوشه content&#x2F; بگذارید&lt;&#x2F;p&gt;
+&lt;p&gt;اگر دقت کنید در بخش اصلی پوشه content ۳ فایل مارک داون وجود دارد&lt;&#x2F;p&gt;
+&lt;p&gt;در این فایل ها مقاله های بلاگ شما قرار میگرد&lt;&#x2F;p&gt;
+&lt;p&gt;میتوانید این ۳ فایل را پاک کنید اگر یک فایل با نام _index.md دیدید به هیچ وجه آن را حذف نکنید&lt;&#x2F;p&gt;
+&lt;p&gt;همه ی مقاله هایی که در بلاگ خود قرار میدهید باید با این شروع شود&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;title = &amp;quot;چطوری کیتا ی فارسی را نصب و استفاده کنیم؟&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;date = &amp;quot;1403-03-08&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;description = &amp;quot;در این پست شما را با نحوه استفاده از کیتا ی فارسی آشنا خواهیم کرد&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;اگر دقت کنید این سینتکس اصلا با سینتکس کیتا ی اصلی &lt;strong&gt;فرق ندارد&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;بعد میتوانید هر چقدر که دوست دارید پست بنویسید&lt;&#x2F;p&gt;
+&lt;p&gt;آموزش تمام شد!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chtwry-bh-tws-h-y-khyt-y-frsy-khmkh-khnym&quot;&gt;چطوری به توسعه ی کیتا ی فارسی کمک کنیم؟&lt;&#x2F;h2&gt;
+&lt;p&gt;کافیست در &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita&quot;&gt;اینجا&lt;&#x2F;a&gt; یک فورک بگیرید&lt;&#x2F;p&gt;
+&lt;p&gt;تغییرات مورد نظر را وارد کنید&lt;&#x2F;p&gt;
+&lt;p&gt;سپس یک Pull request باز کنید. در اسرع وقت بررسی میکنیم.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>خوش آمدید</title>
+        <published>1403-03-07T00:00:00+00:00</published>
+        <updated>1403-03-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/welcome/"/>
+        <id>https://thecode764.github.io/kita/welcome/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/welcome/">&lt;p&gt;خوش آمدید&lt;&#x2F;p&gt;
+&lt;p&gt;اولین پست در بلاگ&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;کد را اینجا قرار دهید
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;nwn&quot;&gt;عنوان&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;nwn-1&quot;&gt;عنوان ۱&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;nwn-2&quot;&gt;عنوان ۲&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;nwn-3&quot;&gt;عنوان ۳&lt;&#x2F;h3&gt;
+</content>
+        
+    </entry>
+</feed>

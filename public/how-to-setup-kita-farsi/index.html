@@ -1,0 +1,483 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="fa">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    تم فارسی کیتا - کیتا
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  
+  <meta name="description" content="در این پست شما را با نحوه استفاده از کیتا ی فارسی آشنا خواهیم کرد" />
+  <meta name="author" content="تم فارسی کیتا" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="تم فارسی کیتا" />
+  <meta property="og:site_name" content="کیتا" />
+  <meta property="og:description" content="در این پست شما را با نحوه استفاده از کیتا ی فارسی آشنا خواهیم کرد" />
+  <meta property="og:url" content="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;how-to-setup-kita-farsi&#x2F;" />
+  
+  <!---->
+  
+  <meta property="og:image" content="https://thecode764.github.io/kita/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://thecode764.github.io/kita/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://thecode764.github.io/kita/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://thecode764.github.io/kita/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://thecode764.github.io/kita/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+  <!---->
+  
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom"
+    href="https://thecode764.github.io/kita/atom.xml"
+  />
+  
+  <!---->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;how-to-setup-kita-farsi&#x2F;" />
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="text-2xl font-semibold" href="https://thecode764.github.io/kita">کیتا</a>
+        <div
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://thecode764.github.io/kita//projects"
+            >پروژه ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://thecode764.github.io/kita//archive"
+            >آرشیو</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://thecode764.github.io/kita//tags"
+            >تگ ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://thecode764.github.io/kita//about"
+            >درباره ما</a
+          >
+        </li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert"
+    >
+      
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">تم فارسی کیتا</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time id="time">1403-03-08</time>
+  <span class="mx-1">&middot;</span>
+  <span id="read-time">4 دقیقه</span>
+  
+  
+  
+  <span class="mx-1">&middot;</span>
+  <span>آرتین کریمی</span>
+  
+</div>
+
+<script>
+  const readingTimeElement = document.getElementById("read-time");
+  const readingTimeNumber = parseFloat(readingTimeElement.textContent); 
+  readingTimeElement.innerHTML = readingTimeNumber.toLocaleString('fa') + ' دقیقه';
+</script>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span>بخش ها</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#pysh-nyz"
+            >پیش نیاز</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#ay-khyt-y-frsy-ykh-nskhh-rsmy-z-khyt-st"
+            >آیا کیتا ی فارسی یک نسخه رسمی از کیتا است؟</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#ay-bry-stfdh-z-yn-tm-byd-pwl-prdkht-khnym"
+            >آیا برای استفاده از این تم باید پول پرداخت کنیم؟</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#nhwh-nsb-getzola"
+            >نحوه نصب getzola</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#arch-lynwkhs-mnjrw-w-dygrn"
+                >آرچ لینوکس&#x2F;مانجارو&#x2F;و دیگران</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#dbyn-wbwntw-w-dygrny"
+                >دبیان&#x2F;اوبونتو&#x2F;و دیگرانی</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#wyndwz"
+                >ویندوز</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#nhwh-nsb-khyt-y-frsy"
+            >نحوه نصب کیتا ی فارسی</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#bh-rwsh-khlwn-khrdn"
+                >به روش کلون کردن</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#bh-rwsh-sb-mjwl"
+                >به روش ساب ماژول</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#shrw-stfdh"
+            >شروع استفاده</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#shrw-nwshtn"
+            >شروع نوشتن</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/#chtwry-bh-tws-h-y-khyt-y-frsy-khmkh-khnym"
+            >چطوری به توسعه ی کیتا ی فارسی کمک کنیم؟</a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><p>سلام در این مقاله شما را با نحوه فعال کردن کیتا ی فارسی آشنا میکنیم</p>
+<h2 id="pysh-nyz">پیش نیاز</h2>
+<p>پیش نیاز خاصی وجود ندارد</p>
+<p>فقط getzola را نصب کنید</p>
+<h2 id="ay-khyt-y-frsy-ykh-nskhh-rsmy-z-khyt-st">آیا کیتا ی فارسی یک نسخه رسمی از کیتا است؟</h2>
+<p>خیر. این فقط یک پروژه است که از تم اصلی کیتا فورک شده و با استفاده از کلمات فارسی و فونت وزیر توانسته کیتا را به طور کامل به فارسی ترجمه کند.</p>
+<h2 id="ay-bry-stfdh-z-yn-tm-byd-pwl-prdkht-khnym">آیا برای استفاده از این تم باید پول پرداخت کنیم؟</h2>
+<p>خیر. این یک پروژه آزاد و متن باز است. شما میتوانید در توسعه این پروژه به ما کمک کنید تنها کافیست این مقاله را تا آخر بخوانید که به شما از صفر تا صد توضیح دهیم.</p>
+<h2 id="nhwh-nsb-getzola">نحوه نصب getzola</h2>
+<p>اینجا چند روش برای نصب زولا را برای شما گذاشته ایم.</p>
+<h3 id="arch-lynwkhs-mnjrw-w-dygrn">آرچ لینوکس/مانجارو/و دیگران</h3>
+<p>برای نصب در توزیع های لینوکس آرچ بیس کافیست دستور زیر را بزنید</p>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">sudo</span><span> pacman</span><span style="color:#bf616a;"> -S</span><span> zola
+</span></code></pre>
+<p>بعد اینکار رمز کامپیوتر/لپتاپ خود را وارد کنید. بعد با نصب موافقت کنید.</p>
+<h3 id="dbyn-wbwntw-w-dygrny">دبیان/اوبونتو/و دیگرانی</h3>
+<p>من شنیده ام که میتوانید با اسنپ-استور زولا را در دبیان و اوبونتو و بقیه توزیع های بر پایه اوبونتو/دبیان نصب کنید.
+<strong>اول مطم‌ءن شوید که اسنپ-استور به درستی نصب شده است</strong></p>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">sudo</span><span> snap install zola</span><span style="color:#bf616a;"> --edge
+</span></code></pre>
+<p>با این دستور میتوانید زولا را در دبیان/اوبونتو و دیگر توزیع های بر پایه دبیان/اوبونتو نصب کنید.</p>
+<h3 id="wyndwz">ویندوز</h3>
+<p>ویندوز را باید از بخش نسخه های زولا دانلود کنید.</p>
+<p><a href="https://github.com/getzola/zola/releases">نسخه ها</a></p>
+<p>بعد با استرکت کردن فایل و سپس باز کردن فایل و نصب کردن. زولا با موفقیت نصب میشود</p>
+<h2 id="nhwh-nsb-khyt-y-frsy">نحوه نصب کیتا ی فارسی</h2>
+<p>نصب کیتا ی فارسی مانند کیتا اصلی با submodule یا clon کردن صورت میگیرد</p>
+<h3 id="bh-rwsh-khlwn-khrdn">به روش کلون کردن</h3>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">git</span><span> clone https://github.com/Thecode764/kita
+</span></code></pre>
+<h3 id="bh-rwsh-sb-mjwl">به روش ساب ماژول</h3>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">git</span><span> submodule add https://github.com/Thecode764/kita.git
+</span></code></pre>
+<p><strong>بعد اینکه ریپو را کلون یا به صورت ساب ماژول دانلود کردید مراحل بعدی را طی کنید</strong></p>
+<h2 id="shrw-stfdh">شروع استفاده</h2>
+<p>استفاده از کیتا ی فارسی <strong>دقیقا</strong> مثل همان کیتا اصلی است هیچ تغییری در سینتکس نیست</p>
+<p>تنها مورد های زیر اضافه شده</p>
+<ul>
+<li>فونت وزیر</li>
+<li>تاریخ فارسی</li>
+<li>اعداد فارسی</li>
+<li>تغییرات کوچکی در استایل</li>
+</ul>
+<p>همانطور که میبینید <strong>هیچ تغییری</strong> در <strong>سینتکس</strong> اعمال <strong>نشده است</strong></p>
+<p>مطمءنا قبل از رسیدن به این بخش بلاگ ساز زولا را نصب کرده اید. و ریپو را هم کلون یا به صورت ساب ماژول دانلود کردید. حال نوبت این است که شروع کنیم.</p>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#96b5b4;">cd</span><span> kita
+</span></code></pre>
+<p>همانطور که میبینید دایرکتوری خود را به کیتا ی فارسی تغییر میدهید</p>
+<p>حال وقت این است که تست کنیم. و مطمءن شویم به طور درست کلون یا به صورت ساب ماژول دانلود کرده ایم.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>zola serve
+</span></code></pre>
+<p>با این دستور یک پورت لوکال هاست برای شما درست میشود به آن لینک بروید سپس میتوانید یک نمونه از کیتا ی فارسی را ببینید</p>
+<h2 id="shrw-nwshtn">شروع نوشتن</h2>
+<p>به فایل های دیگر کاری نداشته باشید. تنها تمرکز خود را در پوشه content/ بگذارید</p>
+<p>اگر دقت کنید در بخش اصلی پوشه content ۳ فایل مارک داون وجود دارد</p>
+<p>در این فایل ها مقاله های بلاگ شما قرار میگرد</p>
+<p>میتوانید این ۳ فایل را پاک کنید اگر یک فایل با نام _index.md دیدید به هیچ وجه آن را حذف نکنید</p>
+<p>همه ی مقاله هایی که در بلاگ خود قرار میدهید باید با این شروع شود</p>
+<pre data-lang="md" style="background-color:#2b303b;color:#c0c5ce;" class="language-md "><code class="language-md" data-lang="md"><span>+++
+</span><span>title = &quot;چطوری کیتا ی فارسی را نصب و استفاده کنیم؟&quot;
+</span><span>date = &quot;1403-03-08&quot;
+</span><span>description = &quot;در این پست شما را با نحوه استفاده از کیتا ی فارسی آشنا خواهیم کرد&quot;
+</span><span>+++
+</span></code></pre>
+<p>اگر دقت کنید این سینتکس اصلا با سینتکس کیتا ی اصلی <strong>فرق ندارد</strong></p>
+<p>بعد میتوانید هر چقدر که دوست دارید پست بنویسید</p>
+<p>آموزش تمام شد!</p>
+<h2 id="chtwry-bh-tws-h-y-khyt-y-frsy-khmkh-khnym">چطوری به توسعه ی کیتا ی فارسی کمک کنیم؟</h2>
+<p>کافیست در <a href="https://github.com/Thecode764/kita">اینجا</a> یک فورک بگیرید</p>
+<p>تغییرات مورد نظر را وارد کنید</p>
+<p>سپس یک Pull request باز کنید. در اسرع وقت بررسی میکنیم.</p>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<!---->
+
+  <!-- Post Nav -->
+  
+<nav class="block-bg mt-12 flex rounded-lg text-lg">
+  
+  <a
+    class="block-hover-mask flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline"
+    href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;welcome&#x2F;"
+    ><span class="mr-1.5">←</span><span>خوش آمدید</span></a
+  >
+  <!---->
+  
+  <a
+    class="block-hover-mask ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline"
+    href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;help&#x2F;"
+    ><span>درباره تم کیتا</span><span class="ml-1.5">→</span></a
+  >
+  
+</nav>
+
+<!---->
+
+  <!-- Comment -->
+  <!---->
+  
+<div class="giscus mt-12"></div>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="Thecode764&#x2F;kita"
+  data-repo-id="R_kgDOMBFtNQ"
+  data-category="Show and tell"
+  data-category-id="DIC_kwDOMBFtNc4Cfp"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="dark"
+  data-lang="en"
+  data-loading="fast"
+  crossorigin="anonymous"
+  async
+></script>
+<!---->
+<!---->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <p id="date"></p>
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">طراحی شده توسط زولا</a>
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ کیتا</a>
+  </div>
+</footer>
+<script>
+let options = { year: 'numeric'};
+let today = new Date().toLocaleDateString('fa-IR', options);
+document.getElementById("date").innerHTML = `&copy; ${today}`
+</script>
+
+  </body>
+</html>
+<script>
+  document.getElementById("today").innerHTML = new Date().toLocaleDateString('fa-IR');
+</script>
