@@ -92,6 +92,10 @@ url = "https://github.com/st1020/kita"
 name = "rss"
 url = "$BASE_URL/atom.xml"
 
+[[extra.profile.social]]
+name = "instagram"
+url = "https://github.com/st1020/kita"
+
 # The top menu.
 [[extra.menu]]
 name = "پروژه ها"
