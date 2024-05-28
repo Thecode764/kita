@@ -116,15 +116,15 @@ license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 
 # The giscus comment options, only available when comment is enabled.
 [extra.giscus]
-repo = ""
-repo_id = ""
-category = ""
-category_id = ""
+repo = "Thecode764/kita"
+repo_id = "R_kgDOMBFtNQ"
+category = "Show and tell"
+category_id = "DIC_kwDOMBFtNc4Cfp"
 mapping = "pathname"
-strict = 1
-reactions_enabled = 0
+strict = 0
+reactions_enabled = 1
 emit_metadata = 0
-input_position = "top"
-theme = "light"
-lang = "fa"
+input_position = "bottom"
+theme = "dark"
+lang = "en"
 loading = "fast"
