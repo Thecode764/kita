@@ -82,7 +82,7 @@
 &lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; pacman&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -S&lt;&#x2F;span&gt;&lt;span&gt; zola
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;بعد اینکار رمز کامپیوتر&#x2F;لپتاپ خود را وارد کنید. بعد با نصب موافقت کنید.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;dbyn-wbwntw-w-dygrny&quot;&gt;دبیان&#x2F;اوبونتو&#x2F;و دیگرانی&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;dbyn-wbwntw-w-dygrn&quot;&gt;دبیان&#x2F;اوبونتو&#x2F;و دیگران&lt;&#x2F;h3&gt;
 &lt;p&gt;من شنیده ام که میتوانید با اسنپ-استور زولا را در دبیان و اوبونتو و بقیه توزیع های بر پایه اوبونتو&#x2F;دبیان نصب کنید.
 &lt;strong&gt;اول مطم‌ءن شوید که اسنپ-استور به درستی نصب شده است&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; snap install zola&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --edge
@@ -91,9 +91,9 @@
 &lt;h3 id=&quot;wyndwz&quot;&gt;ویندوز&lt;&#x2F;h3&gt;
 &lt;p&gt;ویندوز را باید از بخش نسخه های زولا دانلود کنید.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&#x2F;releases&quot;&gt;نسخه ها&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;بعد با استرکت کردن فایل و سپس باز کردن فایل و نصب کردن. زولا با موفقیت نصب میشود&lt;&#x2F;p&gt;
+&lt;p&gt;بعد با اکسترکت کردن فایل و سپس باز کردن فایل و نصب کردن. زولا با موفقیت نصب میشود&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;nhwh-nsb-khyt-y-frsy&quot;&gt;نحوه نصب کیتا ی فارسی&lt;&#x2F;h2&gt;
-&lt;p&gt;نصب کیتا ی فارسی مانند کیتا اصلی با submodule یا clon کردن صورت میگیرد&lt;&#x2F;p&gt;
+&lt;p&gt;نصب کیتا ی فارسی مانند کیتا اصلی با submodule یا clone کردن صورت میگیرد&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;bh-rwsh-khlwn-khrdn&quot;&gt;به روش کلون کردن&lt;&#x2F;h3&gt;
 &lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
