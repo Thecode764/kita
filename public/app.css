@@ -107,3 +107,15 @@ body {
     @apply text-[var(--tw-prose-body)] no-underline hover:text-black dark:hover:text-white;
   }
 }
+
+.input {
+  padding: 10px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 1px  gray;
+  font-size: 18px;
+  transition: width 0.3s;
+  font-family: Consolas,monaco,monospace;
+}

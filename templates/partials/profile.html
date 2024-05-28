@@ -5,7 +5,7 @@
     class="mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow dark:bg-white/[15%]"
   >
     <img
-      class="{% if config.extra.profile.avatar_invert %}dark:invert{% endif %} my-0 aspect-square w-16 rounded-full !bg-black/5 animate-spin"
+      class="{% if config.extra.profile.avatar_invert %}dark:invert{% endif %} my-0 aspect-square w-16 rounded-full !bg-black/5 animate-spin hover:animate-none"
       src="{{ get_url(path=config.extra.profile.avatar_url) }}"
       alt="{{ config.extra.profile.name | default(value=config.title) }}"
     />
