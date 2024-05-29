@@ -72,7 +72,7 @@ social_image = "icons/github.svg"
 # The profile on home page.
 [extra.profile]
 name = "کیتا - تم زولا"
-bio = "کیتا یک تم زیبا و ساده برای بلاگ زولا."
+bio = "کیتا یک تم زیبا و ساده برای بلاگ زولا. ترجمه شده به فارسی. پایدار با قابلیت های جدید"
 # The URL of avatar.
 avatar_url = "icons/github.svg"
 # Invert color in dark mode.
@@ -87,6 +87,10 @@ url = "https://github.com/Thecode764/kita"
 [[extra.profile.social]]
 name = "rss"
 url = "$BASE_URL/atom.xml"
+
+[[extra.profile.social]]
+name = "discord"
+url = "https://discord.com/users/1125429179685548112"
 
 # The top menu.
 [[extra.menu]]
@@ -124,3 +128,6 @@ input_position = "bottom"
 theme = "./static/main.css"
 lang = "fa"
 loading = "lazy"
+
+[extra.user]
+website = "https://thecode764.github.io"

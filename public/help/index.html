@@ -1,383 +1,0 @@
-<!doctype html>
-<html class="not-ready lg:text-base" lang="fa">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!-- Title -->
-  <title>
-    درباره تم کیتا - کیتا
-  </title>
-
-  <!-- Meta -->
-  <meta name="theme-color" />
-
-  
-  <!-- Author -->
-  
-  <!---->
-  
-  <meta name="description" content="تم کیتا چیست؟" />
-  <meta name="author" content="درباره تم کیتا" />
-  <!-- The Open Graph protocol -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="درباره تم کیتا" />
-  <meta property="og:site_name" content="کیتا" />
-  <meta property="og:description" content="تم کیتا چیست؟" />
-  <meta property="og:url" content="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;help&#x2F;" />
-  
-  <!---->
-  
-  <meta property="og:image" content="https://thecode764.github.io/kita/icons/github.svg" />
-  
-  <!---->
-  
-
-  <!-- CSS & JS -->
-  <link rel="preload stylesheet" as="style" href="https://thecode764.github.io/kita/main.css" />
-  <style>
-    :root {
-      --bg: #f4f4f5;
-      --bg-dark: #18181b;
-      --header: #e4e4e7;
-      --header-dark: #27272a;
-    }
-  </style>
-
-  
-
-  <!-- Dark Icon -->
-  <link rel="preload" as="image" href="https://thecode764.github.io/kita/icons/theme.svg" />
-
-  <!-- Math -->
-  
-  <!---->
-
-  <!-- Mermaid -->
-  
-  <!---->
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://thecode764.github.io/kita/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://thecode764.github.io/kita/apple-touch-icon.png" />
-
-  <!-- Feeds -->
-  
-  <!---->
-  
-  <link
-    rel="alternate"
-    type="application/atom+xml"
-    title="Atom"
-    href="https://thecode764.github.io/kita/atom.xml"
-  />
-  
-  <!---->
-  
-
-  <!-- Canonical -->
-  <link rel="canonical" href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;help&#x2F;" />
-</head>
-
-  <body class="text-black duration-200 ease-out dark:text-white">
-    <header
-  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
->
-  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
-    <div class="flex justify-between">
-      <div class="flex items-center">
-        <a class="text-2xl font-semibold" href="https://thecode764.github.io/kita">کیتا</a>
-        <div
-          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
-          role="button"
-          aria-label="Dark"
-        ></div>
-      </div>
-      
-      <div
-        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-        role="button"
-        aria-label="Menu"
-      ></div>
-      
-    </div>
-    <script>
-      // base
-      const htmlClass = document.documentElement.classList;
-      setTimeout(() => {
-        htmlClass.remove("not-ready");
-      }, 10);
-
-      // mobile menu
-      const btnMenu = document.querySelector(".btn-menu");
-      btnMenu?.addEventListener("click", () => {
-        htmlClass.toggle("open");
-      });
-
-      // dark theme
-      const setDark = (isDark) => {
-        if (isDark) {
-          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
-          htmlClass.add("dark");
-        } else {
-          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
-          htmlClass.remove("dark");
-        }
-        localStorage.setItem("dark", isDark);
-      };
-
-      // init
-      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-      if (htmlClass.contains("dark")) {
-        setDark(true);
-      } else {
-        const darkVal = localStorage.getItem("dark");
-        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
-      }
-
-      // listen system
-      darkScheme.addEventListener("change", (event) => {
-        setDark(event.matches);
-      });
-
-      // manual switch
-      const btnDark = document.querySelector(".btn-dark");
-      btnDark.addEventListener("click", () => {
-        setDark(localStorage.getItem("dark") !== "true");
-      });
-    </script>
-    
-    <nav class="flex w-full items-center lg:w-auto">
-      <ul
-        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
-      >
-        
-        <li>
-          <a
-            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
-            href="https://thecode764.github.io/kita//projects"
-            >پروژه ها</a
-          >
-        </li>
-        
-        <li>
-          <a
-            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
-            href="https://thecode764.github.io/kita//archive"
-            >آرشیو</a
-          >
-        </li>
-        
-        <li>
-          <a
-            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
-            href="https://thecode764.github.io/kita//tags"
-            >تگ ها</a
-          >
-        </li>
-        
-        <li>
-          <a
-            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
-            href="https://thecode764.github.io/kita//about"
-            >درباره ما</a
-          >
-        </li>
-        
-      </ul>
-    </nav>
-    
-  </div>
-</header>
-    <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert"
-    >
-      
-<article>
-  <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">درباره تم کیتا</h1>
-    <div class="text-sm antialiased opacity-60">
-  
-  <time id="time">1403-03-08</time>
-  <span class="mx-1">&middot;</span>
-  <span id="read-time">2 دقیقه</span>
-  
-  
-  
-  <span class="mx-1">&middot;</span>
-  <a href="https://thecode764.github.io/kita" style="text-decoration: none;">
-    <span>✍️ آرتین کریمی</span>
-  </a>
-  
-</div>
-
-<script>
-  const readingTimeElement = document.getElementById("read-time");
-  const readingTimeNumber = parseFloat(readingTimeElement.textContent); 
-  readingTimeElement.innerHTML = readingTimeNumber.toLocaleString('fa') + ' دقیقه';
-</script>
-  </header>
-
-  
-
-  <!-- TOC -->
-  <!---->
-<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
-  <details>
-    <summary class="cursor-pointer py-1 pl-4">
-      <span>بخش ها</span>
-    </summary>
-    <div class="px-2">
-      <ul>
-        
-        <li>
-          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/help/#chnd-fwrkh-z-tm-khyt-wjwd-drd"
-            >چند فورک از تم کیتا وجود دارد؟</a
-          >
-          
-        </li>
-        
-        <li>
-          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/help/#fwrkh-hy-trjmh-shdh-z-khyt-khdm-hstnd"
-            >فورک های ترجمه شده از کیتا کدام هستند؟</a
-          >
-          
-        </li>
-        
-        <li>
-          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/help/#ay-tm-khyt-trjmh-frsy-drd"
-            >آیا تم کیتا ترجمه فارسی دارد؟</a
-          >
-          
-        </li>
-        
-        <li>
-          <a class="no-underline hover:underline" href="https://thecode764.github.io/kita/help/#tm-frsy-khyt-chh-chyz-hyy-r-drwn-khwd-drd"
-            >تم فارسی کیتا چه چیز هایی را درون خود دارد</a
-          >
-          
-        </li>
-        
-      </ul>
-    </div>
-  </details>
-</div>
-
-<!---->
-
-  <!-- Content -->
-  <section><p>تم کیتا یک تم چینی زیبا و ساده برای بلاگ ساز زولا است</p>
-<p>این تم اولین بار در سال ۲۰۲۳ عرضه شده است و با استقبال زیادی در برنامه نویسان ایرانی مواجه شده است.</p>
-<p>اکثرا دارند از این تم در ایران استفاده میکنند. اما تم بهتری ولی شبیه به کیتا با نام کاغذ  وجود دارد. تم کاغذ از تم کیتا کمی قدیمی تر است. ولی من تا به حال کسی را ندیده ام که از تم کاغذ استفاده کند</p>
-<p>استفاده از تم کیتا بسیار راحت است کافیست با دستور زیر ریپازیتوری را دانلود کنید</p>
-<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>git clone https://github.com/st1020/kita
-</span></code></pre>
-<p>بعد اینکار کافیست به دایرکتوری اصلی پروژه کیتا بروید سپس بلاگ خود را طراحی کنید</p>
-<p>با دستور زیر خروجی را در مرورگر ببینید</p>
-<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>zola serve
-</span></code></pre>
-<p><strong>حتما باید برنامه getzola در کامپیوتر/لپتاپ شما نصب باشد تا خروجی بگیرید</strong></p>
-<h2 id="chnd-fwrkh-z-tm-khyt-wjwd-drd">چند فورک از تم کیتا وجود دارد؟</h2>
-<p><img src="https://img.shields.io/github/forks/st1020/kita" alt="Fork" /></p>
-<h2 id="fwrkh-hy-trjmh-shdh-z-khyt-khdm-hstnd">فورک های ترجمه شده از کیتا کدام هستند؟</h2>
-<p>در حال حاضر در سال ۲۰۲۴ که ۷ فورک تنها وجود دارد خیر فکر نمیکنیم ترجمه باشد</p>
-<h2 id="ay-tm-khyt-trjmh-frsy-drd">آیا تم کیتا ترجمه فارسی دارد؟</h2>
-<p>بله تم کیتا یک ترجمه فارسی دارد که همین پروژه ای است که مشاهده میکنید
-در پست بعدی شما را با نصب کیتا ی فارسی آشنا خواهیم کرد</p>
-<h2 id="tm-frsy-khyt-chh-chyz-hyy-r-drwn-khwd-drd">تم فارسی کیتا چه چیز هایی را درون خود دارد</h2>
-<ul>
-<li>تاریخ فارسی</li>
-<li>اعداد فارسی</li>
-<li>راستچین و چپ چین</li>
-<li>فونت وزیر</li>
-</ul>
-</section>
-
-  <hr />
-
-  <!-- Post Taxonomies -->
-  
-<!---->
-
-  <!-- Post Nav -->
-  
-<nav class="block-bg mt-12 flex rounded-lg text-lg">
-  
-  <a
-    class="block-hover-mask flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline"
-    href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;how-to-setup-kita-farsi&#x2F;"
-    ><span class="mr-1.5">👈</span><span>تم فارسی کیتا</span></a
-  >
-  <!---->
-  
-  <a
-    class="block-hover-mask ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline"
-    href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;new-feature-add-3-09&#x2F;"
-    ><span>قابلیت های جدید باز هم به کیتا ی فارسی اضافه شد</span><span class="ml-1.5">👉</span></a
-  >
-  
-</nav>
-
-<!---->
-
-  <!-- Comment -->
-  <br>
-  <main class="dark:bg-[#282828]">
-    <code class="dark:bg-[#282828]">
-      <kbd class="dark:bg-[#282828]">
-        <pre class="dark:bg-[#282828]">
-          <samp class="dark:bg-[#282828]">
-            <!---->
-            
-<div class="giscus mt-12"></div>
-<script
-  src="https://giscus.app/client.js"
-  data-repo="Thecode764&#x2F;kita"
-  data-repo-id="R_kgDOMBFtNQ"
-  data-category="General"
-  data-category-id="DIC_kwDOMBFtNc4Cfp-K"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme=".&#x2F;static&#x2F;main.css"
-  data-lang="fa"
-  data-loading="lazy"
-  crossorigin="anonymous"
-  async
-></script>
-<!---->
-<!---->
-          </samp>
-        </pre>
-      </kbd>
-    </code>
-  </main>
-  
-</article>
-
-    </main>
-
-    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
-  <div class="mr-auto basis-full lg:basis-1/2">
-    <p id="date"></p>
-    
-  </div>
-  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
-    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">طراحی شده توسط زولا</a>
-    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ کیتا</a>
-  </div>
-</footer>
-<script>
-let options = { year: 'numeric'};
-let today = new Date().toLocaleDateString('fa-IR', options);
-document.getElementById("date").innerHTML = `&copy; ${today}`
-</script>
-
-  </body>
-</html>
-<script>
-  document.getElementById("today").innerHTML = new Date().toLocaleDateString('fa-IR');
-</script>
