@@ -108,24 +108,14 @@ body {
   }
 }
 
-.input {
-  padding: 10px;
-  width: 120px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  box-shadow: 0 1px  gray;
-  font-size: 18px;
-  transition: width 0.3s;
-  font-family: Consolas,monaco,monospace;@font-face {
-    font-family: 'Vazir';
-    src: url('./fonts/vazirmatn-v33.003/fonts/ttf/Vazirmatn-Bold.ttf')
-  }
-  
-  code,
-  kbd,
-  pre,
-  samp {
-    font-family: Vazir;
-  }
+main {
+  font-family: #282828;
+}
+
+/* for code */
+code,
+kbd,
+pre,
+samp {
+  background-color: #282828;
 }

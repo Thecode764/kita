@@ -31,8 +31,18 @@
   {% include "partials/post_navigation.html" %}<!---->
 
   <!-- Comment -->
-  {% if page.extra.comment | default(value=config.extra.comment) %}<!---->
-  {% include "partials/comment.html" %}<!---->
+  <main>
+    <code>
+      <kbd>
+        <pre>
+          <samp>
+            {% if page.extra.comment | default(value=config.extra.comment) %}<!---->
+            {% include "partials/comment.html" %}<!---->
+          </samp>
+        </pre>
+      </kbd>
+    </code>
+  </main>
   {% endif %}
 </article>
 {% endblock main %}
