@@ -7,7 +7,9 @@
   {% set single_author = page.extra.author | default(value=config.author) %}
   {% if single_author %}
   <span class="mx-1">&middot;</span>
-  <span>✍️ {{ single_author }}</span>
+  <a href="{{ get_url(path=``) }}" style="text-decoration: none;">
+    <span>✍️ {{ single_author }}</span>
+  </a>
   {% endif %}
 </div>
 
