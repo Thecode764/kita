@@ -1877,19 +1877,6 @@ body {
   font-family: Vazir, sans-serif;
 }
 
-main {
-  font-family: #282828;
-}
-
-/* for code */
-
-code,
-kbd,
-pre,
-samp {
-  background-color: #282828;
-}
-
 .dark\:prose-invert:is(.dark *) {
   --tw-prose-body: var(--tw-prose-invert-body);
   --tw-prose-headings: var(--tw-prose-invert-headings);
@@ -1952,6 +1939,11 @@ samp {
   --tw-scale-x: .95;
   --tw-scale-y: .95;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.dark\:bg-\[\#181818\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 24 / var(--tw-bg-opacity));
 }
 
 .dark\:bg-blue-600:is(.dark *) {

@@ -31,11 +31,12 @@
   {% include "partials/post_navigation.html" %}<!---->
 
   <!-- Comment -->
-  <main>
-    <code>
-      <kbd>
-        <pre>
-          <samp>
+  <br><br>
+  <main class="dark:bg-[#181818]">
+    <code class="dark:bg-[#181818]">
+      <kbd class="dark:bg-[#181818]">
+        <pre class="dark:bg-[#181818]">
+          <samp class="dark:bg-[#181818]">
             {% if page.extra.comment | default(value=config.extra.comment) %}<!---->
             {% include "partials/comment.html" %}<!---->
           </samp>

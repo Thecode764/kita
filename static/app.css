@@ -107,15 +107,3 @@ body {
     @apply text-[var(--tw-prose-body)] no-underline hover:text-black dark:hover:text-white;
   }
 }
-
-main {
-  font-family: #282828;
-}
-
-/* for code */
-code,
-kbd,
-pre,
-samp {
-  background-color: #282828;
-}
