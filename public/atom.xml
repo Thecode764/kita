@@ -5,8 +5,34 @@
     <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>1403-03-08T00:00:00+00:00</updated>
+    <updated>1403-03-09T00:00:00+00:00</updated>
     <id>https://thecode764.github.io/kita/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>نسخه جدید از کیتا ی فارسی منتشر شد!</title>
+        <published>1403-03-09T00:00:00+00:00</published>
+        <updated>1403-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/2024-version-out/"/>
+        <id>https://thecode764.github.io/kita/2024-version-out/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/2024-version-out/">&lt;p&gt;سلام 👋 &lt;&#x2F;p&gt;
+&lt;p&gt;امروز با چند قابلیت جدید نسخه جدید رو ریلیز کردیم&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;از این به بعد برای نویسنده یک ایموجی در نظر گرفته میشه&lt;&#x2F;li&gt;
+&lt;li&gt;تم کامنت به صورت کامل تغییر کرد&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;به زودی قابلیت های جدید مثل رفتن به وبسایت سازنده بلاگ هم اضافه میشه منتظر قابلیت های جدید باشید&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="fa">
         <title>درباره تم کیتا</title>
         <published>1403-03-08T00:00:00+00:00</published>
@@ -177,6 +203,31 @@
 &lt;&#x2F;span&gt;&lt;span&gt;lang = &amp;quot;fa&amp;quot;
 &lt;&#x2F;span&gt;&lt;span&gt;loading = &amp;quot;lazy&amp;quot;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>چه قابلیت هایی به کیتا ی فارسی اضافه کنیم؟</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/what-features/"/>
+        <id>https://thecode764.github.io/kita/what-features/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/what-features/">&lt;p&gt;سلام&lt;&#x2F;p&gt;
+&lt;p&gt;این لیست قابلیت هایی است که باید فردا به کیتا ی فارسی اضافه کنیم&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;آپدیت کردن استایل&lt;&#x2F;li&gt;
+&lt;li&gt;اضافه کردن کامپوننت های جدید به کیتا ی فارسی&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </content>
         
     </entry>

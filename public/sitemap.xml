@@ -4,6 +4,10 @@
         <loc>https://thecode764.github.io/kita/</loc>
     </url>
     <url>
+        <loc>https://thecode764.github.io/kita/2024-version-out/</loc>
+        <lastmod>1403-03-09</lastmod>
+    </url>
+    <url>
         <loc>https://thecode764.github.io/kita/about/</loc>
     </url>
     <url>
@@ -21,6 +25,9 @@
         <loc>https://thecode764.github.io/kita/page/1/</loc>
     </url>
     <url>
+        <loc>https://thecode764.github.io/kita/page/2/</loc>
+    </url>
+    <url>
         <loc>https://thecode764.github.io/kita/projects/</loc>
     </url>
     <url>
@@ -33,5 +40,9 @@
     <url>
         <loc>https://thecode764.github.io/kita/welcome/</loc>
         <lastmod>1403-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://thecode764.github.io/kita/what-features/</loc>
+        <lastmod>1403-03-08</lastmod>
     </url>
 </urlset>
