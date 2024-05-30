@@ -44,10 +44,6 @@ highlight_theme = "base16-ocean-dark"
 
 # The Kita theme style config.
 [extra]
-# Enable KaTex math formula support globally.
-math = false
-# Enable mermaid support globally.
-mermaid = false
 # Enable comment support globally.
 comment = true
 # The URL of social image.
