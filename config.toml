@@ -105,6 +105,10 @@ url = "$BASE_URL/tags"
 name = "درباره ما"
 url = "$BASE_URL/about"
 
+[[extra.menu]]
+name = "تست"
+url = "$BASE_URL/test"
+
 # The page footer options.
 [extra.footer]
 since = 2024
