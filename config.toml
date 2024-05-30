@@ -109,6 +109,10 @@ url = "$BASE_URL/about"
 name = "تست"
 url = "$BASE_URL/test"
 
+[[extra.menu]]
+name = "گفتگو"
+url = "$BASE_URL/chat"
+
 # The page footer options.
 [extra.footer]
 since = 2024
