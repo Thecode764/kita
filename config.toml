@@ -57,13 +57,13 @@ social_image = "icons/github.svg"
 # bg_dark_color = ""
 
 # Enable header blur.
-# header_blur = true
+header_blur = false
 
 # The custom header color, only available when `header_blur` is false.
-# header_color = ""
+header_color = "white"
 
 # The custom header color in dark mode, only available when `header_blur` is false.
-# header_dark_color = ""
+header_dark_color = "black"
 
 # The profile on home page.
 [extra.profile]
@@ -127,3 +127,7 @@ loading = "lazy"
 
 [extra.user]
 website = "https://thecode764.github.io"
+
+[extra.edit]
+repo = "https://github.com/Thecode764/kita"
+branch = "main"
