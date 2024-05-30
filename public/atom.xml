@@ -5,8 +5,34 @@
     <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>1403-03-09T00:00:00+00:00</updated>
+    <updated>1403-03-10T00:00:00+00:00</updated>
     <id>https://thecode764.github.io/kita/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>صفحه تگ ها برگشت!</title>
+        <published>1403-03-10T00:00:00+00:00</published>
+        <updated>1403-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/tag-page-is-back/"/>
+        <id>https://thecode764.github.io/kita/tag-page-is-back/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/tag-page-is-back/">&lt;p&gt;خب سلام&lt;&#x2F;p&gt;
+&lt;p&gt;امروز پر انرژی اومدم بگم که صفحه تگ ها برگشته میتونید استفاده کنید&lt;&#x2F;p&gt;
+&lt;p&gt;صفحه تگ ها کاملا به فارسی ترجمه شده و فقط اعدداد آن فارسی نیست&lt;&#x2F;p&gt;
+&lt;p&gt;اگر صفحه تگ را نمیبینید به پست خود موقع شروع این را اضافه کنید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;[taxonomies]
+&lt;&#x2F;span&gt;&lt;span&gt;tags = [&amp;#39;tag-name&amp;#39;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="fa">
         <title>نسخه جدید از کیتا ی فارسی منتشر شد!</title>
         <published>1403-03-09T00:00:00+00:00</published>
