@@ -7,7 +7,7 @@
 
   <!-- Title -->
   <title>
-    کیتا
+    کیتا 🇮🇷
   </title>
 
   <!-- Meta -->
@@ -21,7 +21,7 @@
   <meta name="author" content="آرتین کریمی" />
   <!-- The Open Graph protocol -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="کیتا" />
+  <meta property="og:title" content="کیتا 🇮🇷" />
   <meta property="og:description" content="یک تم زیبا و ساده برای بلاگ Zola." />
   <meta property="og:url" content="https://thecode764.github.io/kita" />
   
@@ -83,7 +83,7 @@
   <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
     <div class="flex justify-between">
       <div class="flex items-center">
-        <a class="text-2xl font-semibold" href="https://thecode764.github.io/kita">کیتا</a>
+        <a class="text-2xl font-semibold" href="https://thecode764.github.io/kita">کیتا 🇮🇷</a>
         <div
           class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
           role="button"
@@ -199,24 +199,25 @@
     >
       
 <!-- Term Title -->
-<h1 class="mb-16">#usage</h1>
+<h1 class="mb-16">#سیستم کامنت</h1>
 <!-- Pages -->
 <!-- Pages -->
 <!---->
 <!---->
 <!---->
+
 
 
 <section
   class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
 >
   <!---->
-
-  <h2 class="!my-0 pb-1 font-bold !leading-none">📝 تم فارسی کیتا</h2>
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none">📝 فعال کردن سیستم کامنت برای کیتا</h2>
 
   <div class="not-prose my-1 truncate">
     
-    <p>در این پست شما را با نحوه استفاده از کیتا ی فارسی آشنا خواهیم کرد</p>
+    <p>چطوری سیستم کامنت را برای کیتا فعال کنیم؟</p>
     
   </div>
 
@@ -224,7 +225,7 @@
   
   <time id="time">1403-03-08</time>
   <span class="mx-1">&middot;</span>
-  <span id="read-time">4 دقیقه</span>
+  <span id="read-time">1 دقیقه</span>
   
   
   
@@ -247,7 +248,7 @@
   readingTimeElement.innerHTML = readingTimeNumber.toLocaleString('fa') + ' دقیقه';
 </script>
 
-  <a class="absolute inset-0 text-[0]" href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;how-to-setup-kita-farsi&#x2F;">تم فارسی کیتا</a>
+  <a class="absolute inset-0 text-[0]" href="https:&#x2F;&#x2F;thecode764.github.io&#x2F;kita&#x2F;turn-on-comment-system&#x2F;">فعال کردن سیستم کامنت برای کیتا</a>
 </section>
 
 
@@ -282,4 +283,82 @@ document.getElementById("date").innerHTML = `&copy; ${today}`
 </html>
 <script>
   document.getElementById("today").innerHTML = new Date().toLocaleDateString('fa-IR');
+</script>
+<script>
+  // getting all required elements
+const searchWrapper = document.querySelector(".search-input");
+const inputBox = searchWrapper.querySelector("input");
+const suggBox = searchWrapper.querySelector(".autocom-box");
+const icon = searchWrapper.querySelector(".icon");
+let linkTag = searchWrapper.querySelector("a");
+let webLink;
+
+// if user press any key and release
+inputBox.onkeyup = (e)=>{
+    let userData = e.target.value; //user enetered data
+    let emptyArray = [];
+    if(userData){
+        icon.onclick = ()=>{
+            webLink = `https://www.google.com/search?q=${userData}`;
+            linkTag.setAttribute("href", webLink);
+            linkTag.click();
+        }
+        emptyArray = suggestions.filter((data)=>{
+            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
+        });
+        emptyArray = emptyArray.map((data)=>{
+            // passing return data inside li tag
+            return data = `<li>${data}</li>`;
+        });
+        searchWrapper.classList.add("active"); //show autocomplete box
+        showSuggestions(emptyArray);
+        let allList = suggBox.querySelectorAll("li");
+        for (let i = 0; i < allList.length; i++) {
+            //adding onclick attribute in all li tag
+            allList[i].setAttribute("onclick", "select(this)");
+        }
+    }else{
+        searchWrapper.classList.remove("active"); //hide autocomplete box
+    }
+}
+
+function select(element){
+    let selectData = element.textContent;
+    inputBox.value = selectData;
+    icon.onclick = ()=>{
+        webLink = `https://www.google.com/search?q=${selectData}`;
+        linkTag.setAttribute("href", webLink);
+        linkTag.click();
+    }
+    searchWrapper.classList.remove("active");
+}
+
+function showSuggestions(list){
+    let listData;
+    if(!list.length){
+        userValue = inputBox.value;
+        listData = `<li>${userValue}</li>`;
+    }else{
+      listData = list.join('');
+    }
+    suggBox.innerHTML = listData;
+}
+
+
+
+// You Create new javascript file, File Name  suggestions., and Paste the Code
+
+let suggestions = [
+    "خوش آمدید",
+    "چه قابلیت هایی به کیتا ی فارسی اضافه کنیم؟",
+    "فعال کردن سیستم کامنت",
+    "تم فارسی کیتا",
+    "درباره تم کیتا",
+    "قابلیت جدید باز هم به کیتا ی فارسی اضافه شد",
+    "نسخه جدید از کیتا ی فارسی منتشر شد!",
+    "صفحه ی تگ ها برگشت",
+    "قابلیت جستجو اضافه شد!"
+];
+
 </script>
