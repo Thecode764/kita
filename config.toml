@@ -22,10 +22,10 @@ feed_filename = "atom.xml"
 # The taxonomies to be rendered for the site and their configuration of the default languages
 # Example:
 #     taxonomies = [
-#       {name = "tags", feed = true}, # each tag will have its own feed
-#       {name = "tags"}, # you can have taxonomies with the same name in multiple languages
-#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
-#       {name = "authors"}, # Basic definition: no feed or pagination
+#       {name = "تگ ها", feed = true}, # each tag will have its own feed
+#       {name = "تگ ها"}, # you can have taxonomies with the same name in multiple languages
+#       {name = "بخش ها", paginate_by = 5},  # 5 items per page for a term
+#       {name = "نویسندگان"}, # Basic definition: no feed or pagination
 #     ]
 #
 taxonomies = [{ name = "tags", rss = true, paginate_by = 5 }]

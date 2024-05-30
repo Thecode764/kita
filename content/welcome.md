@@ -2,6 +2,8 @@
 title = "خوش آمدید"
 date = "1403-03-07"
 description = "اولین پست در این بلاگ"
+[taxonomies]
+tags = ["welcome"]
 +++
 خوش آمدید
 
