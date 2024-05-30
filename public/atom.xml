@@ -8,6 +8,27 @@
     <updated>1403-03-10T00:00:00+00:00</updated>
     <id>https://thecode764.github.io/kita/atom.xml</id>
     <entry xml:lang="fa">
+        <title>قابلیت چت به کیتا اضافه شد!</title>
+        <published>1403-03-10T00:00:00+00:00</published>
+        <updated>1403-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/chat-feature/"/>
+        <id>https://thecode764.github.io/kita/chat-feature/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/chat-feature/">&lt;p&gt;از این به بعد میتوانید با نویسنده بلاگ چت کنید.&lt;&#x2F;p&gt;
+&lt;p&gt;کافیست اول giscus را فعال کنید سپس در &#x2F;chat دیگران میتوانند با شما چت کنند&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
         <title>قابلیت جستحو اضافه شد!</title>
         <published>1403-03-10T00:00:00+00:00</published>
         <updated>1403-03-10T00:00:00+00:00</updated>
