@@ -5,8 +5,36 @@
     <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>1403-03-10T00:00:00+00:00</updated>
+    <updated>1403-03-11T00:00:00+00:00</updated>
     <id>https://thecode764.github.io/kita/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>نحوه استفاده از RSS‌ در کیتا</title>
+        <published>1403-03-11T00:00:00+00:00</published>
+        <updated>1403-03-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/setup-rss/"/>
+        <id>https://thecode764.github.io/kita/setup-rss/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/setup-rss/">&lt;p&gt;سلام&lt;&#x2F;p&gt;
+&lt;p&gt;توی این مقاله شما رو با چگونه استفاده از RSS کیتا آشنا میکنم&lt;&#x2F;p&gt;
+&lt;p&gt;بعد اینکه پست های بلاگتون رو مینویسین دستور زیر رو بزنین که خروجی رو به صورت استاتیک یعنی با اچ تی ام ال و سی اس اس و جاوااسکریپت رو میرزه توی فولدر public&#x2F;&lt;&#x2F;p&gt;
+&lt;p&gt;این دستور&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola build
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;بعد زدن این دستور فایل های  rss براتون ساخته میشه اسمش هم هست atom.xml&lt;&#x2F;p&gt;
+&lt;p&gt;بعد خیلی راحت میتونین از اون استفاده کنید&lt;&#x2F;p&gt;
+&lt;p&gt;موفق و پیروز باشید.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="fa">
         <title>قابلیت چت به کیتا اضافه شد!</title>
         <published>1403-03-10T00:00:00+00:00</published>
