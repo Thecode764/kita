@@ -11,7 +11,9 @@
 {% for post in data.post %}
 <div class="not-prose block-bg my-4 flex w-full flex-col rounded-lg px-5 py-1.5">
   <div class="bg-[#181818] rounded-lg">
-    <img class="sm:ml-9 2xl:ml-[8.4rem] rounded-lg" src="{{ post.image }}" alt="Your post">
+    <div class="flex justify-center items-center">
+        <img class="sm:ml-9 2xl:ml-[8.4rem] rounded-lg" src="{{ post.image }}" alt="Your post">
+    </div>
     <br>
     <p class="dark:text-white text-white">{{ post.description }}</p>
   </div>
