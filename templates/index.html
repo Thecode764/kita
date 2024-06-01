@@ -85,7 +85,7 @@ function select(element){
 function showSuggestions(list){
     let listData;
     if(!list.length){
-        userValue = inputBox.value;
+        let userValue = inputBox.value;
         listData = `<li>${userValue}</li>`;
     }else{
       listData = list.join('');
