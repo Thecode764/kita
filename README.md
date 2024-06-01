@@ -55,3 +55,7 @@ See the `extra` section in [config.toml](https://github.com/Thecode764/kita/blob
 [MIT License](https://github.com/Thecode764/kita/blob/main/LICENSE)
 
 Copyright (c) 2023-present, st1020
+
+## Official website
+
+The official website is https://thecode764.gitub.io/Kita-website
