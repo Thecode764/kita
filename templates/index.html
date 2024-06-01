@@ -57,7 +57,7 @@ inputBox.onkeyup = (e)=>{
         });
         emptyArray = emptyArray.map((data)=>{
             // passing return data inside li tag
-            let data = `<li>${data}</li>`;
+            data = `<li>${data}</li>`;
         });
         searchWrapper.classList.add("active"); //show autocomplete box
         showSuggestions(emptyArray);
