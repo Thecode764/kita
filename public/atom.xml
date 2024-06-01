@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa">
+    <title>کیتا 🇮🇷</title>
+    <subtitle>یک تم زیبا و ساده برای بلاگ Zola.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://thecode764.github.io/kita/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>1403-03-12T00:00:00+00:00</updated>
+    <id>https://thecode764.github.io/kita/atom.xml</id>
+    <entry xml:lang="fa">
+        <title>چگونه در کیتا فرسته یا همان پست را بفرستیم.</title>
+        <published>1403-03-12T00:00:00+00:00</published>
+        <updated>1403-03-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/how-to-post/"/>
+        <id>https://thecode764.github.io/kita/how-to-post/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/how-to-post/">&lt;p&gt;سلام&lt;&#x2F;p&gt;
+&lt;p&gt;جدیدترین قابلیتی که به کیتا ی فارسی اضافه شده است قابلیت ارسال فرسته یا همان پست است&lt;&#x2F;p&gt;
+&lt;p&gt;برای نوشتن یک پست کافیست&lt;&#x2F;p&gt;
+&lt;p&gt;وارد content&#x2F;post&#x2F;data.toml شوید&lt;&#x2F;p&gt;
+&lt;p&gt;۲ مثال آنجا وجود دارد از آن ها استفاده کنید&lt;&#x2F;p&gt;
+&lt;p&gt;توجه عکس شما حتما باید در CDN آپلود شده باشد یعنی باید لینک بدهید به صورت لوکال امکان پذیر نیست&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>نحوه استفاده از RSS‌ در کیتا</title>
+        <published>1403-03-11T00:00:00+00:00</published>
+        <updated>1403-03-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/setup-rss/"/>
+        <id>https://thecode764.github.io/kita/setup-rss/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/setup-rss/">&lt;p&gt;سلام&lt;&#x2F;p&gt;
+&lt;p&gt;توی این مقاله شما رو با چگونه استفاده از RSS کیتا آشنا میکنم&lt;&#x2F;p&gt;
+&lt;p&gt;بعد اینکه پست های بلاگتون رو مینویسین دستور زیر رو بزنین که خروجی رو به صورت استاتیک یعنی با اچ تی ام ال و سی اس اس و جاوااسکریپت رو میرزه توی فولدر public&#x2F;&lt;&#x2F;p&gt;
+&lt;p&gt;این دستور&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola build
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;بعد زدن این دستور فایل های  rss براتون ساخته میشه اسمش هم هست atom.xml&lt;&#x2F;p&gt;
+&lt;p&gt;بعد خیلی راحت میتونین از اون استفاده کنید&lt;&#x2F;p&gt;
+&lt;p&gt;موفق و پیروز باشید.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>قابلیت چت به کیتا اضافه شد!</title>
+        <published>1403-03-10T00:00:00+00:00</published>
+        <updated>1403-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/chat-feature/"/>
+        <id>https://thecode764.github.io/kita/chat-feature/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/chat-feature/">&lt;p&gt;از این به بعد میتوانید با نویسنده بلاگ چت کنید.&lt;&#x2F;p&gt;
+&lt;p&gt;کافیست اول giscus را فعال کنید سپس در &#x2F;chat دیگران میتوانند با شما چت کنند&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>قابلیت جستحو اضافه شد!</title>
+        <published>1403-03-10T00:00:00+00:00</published>
+        <updated>1403-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/search-feature/"/>
+        <id>https://thecode764.github.io/kita/search-feature/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/search-feature/">&lt;p&gt;با سلام قابلیت سرچ به کیتا ی فارسی اضافه شد&lt;&#x2F;p&gt;
+&lt;p&gt;در این نسخه برای قابلیت سرچ باید جاوااسکریپت بنویسید&lt;&#x2F;p&gt;
+&lt;p&gt;وارد فایل templates&#x2F;index.html شوید&lt;&#x2F;p&gt;
+&lt;p&gt;در &lt;strong&gt;خط ۱۰۰&lt;&#x2F;strong&gt; یک لیست وجود داره اون نتایج جستجو رو بذارید&lt;&#x2F;p&gt;
+&lt;p&gt;یعنی نام مقاله ها رو&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>صفحه تگ ها برگشت!</title>
+        <published>1403-03-10T00:00:00+00:00</published>
+        <updated>1403-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/tag-page-is-back/"/>
+        <id>https://thecode764.github.io/kita/tag-page-is-back/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/tag-page-is-back/">&lt;p&gt;خب سلام&lt;&#x2F;p&gt;
+&lt;p&gt;امروز پر انرژی اومدم بگم که صفحه تگ ها برگشته میتونید استفاده کنید&lt;&#x2F;p&gt;
+&lt;p&gt;صفحه تگ ها کاملا به فارسی ترجمه شده و فقط اعدداد آن فارسی نیست&lt;&#x2F;p&gt;
+&lt;p&gt;اگر صفحه تگ را نمیبینید به پست خود موقع شروع این را اضافه کنید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;[taxonomies]
+&lt;&#x2F;span&gt;&lt;span&gt;tags = [&amp;#39;tag-name&amp;#39;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>نسخه جدید از کیتا ی فارسی منتشر شد!</title>
+        <published>1403-03-09T00:00:00+00:00</published>
+        <updated>1403-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/2024-version-out/"/>
+        <id>https://thecode764.github.io/kita/2024-version-out/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/2024-version-out/">&lt;p&gt;سلام 👋 &lt;&#x2F;p&gt;
+&lt;p&gt;امروز با چند قابلیت جدید نسخه جدید رو ریلیز کردیم&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;از این به بعد برای نویسنده یک ایموجی در نظر گرفته میشه&lt;&#x2F;li&gt;
+&lt;li&gt;تم کامنت به صورت کامل تغییر کرد&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;به زودی قابلیت های جدید مثل رفتن به وبسایت سازنده بلاگ هم اضافه میشه منتظر قابلیت های جدید باشید&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>قابلیت های جدید باز هم به کیتا ی فارسی اضافه شد</title>
+        <published>1403-03-09T00:00:00+00:00</published>
+        <updated>1403-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/new-feature-add-3-09/"/>
+        <id>https://thecode764.github.io/kita/new-feature-add-3-09/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/new-feature-add-3-09/">&lt;p&gt;قابلیت های جدیدی به کیتا ی فارسی اضافه کردیم&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;پاک کردن svg در یک سری دکمه ها&lt;&#x2F;li&gt;
+&lt;li&gt;وقتی روی نویسنده کلیک کنید توی بلاگش یعنی صفحه اصلی میرید&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;اگر به نظرتون قابلیت جدید باید اضافه بشه کامنت بدین&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>درباره تم کیتا</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/help/"/>
+        <id>https://thecode764.github.io/kita/help/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/help/">&lt;p&gt;تم کیتا یک تم چینی زیبا و ساده برای بلاگ ساز زولا است&lt;&#x2F;p&gt;
+&lt;p&gt;این تم اولین بار در سال ۲۰۲۳ عرضه شده است و با استقبال زیادی در برنامه نویسان ایرانی مواجه شده است.&lt;&#x2F;p&gt;
+&lt;p&gt;اکثرا دارند از این تم در ایران استفاده میکنند. اما تم بهتری ولی شبیه به کیتا با نام کاغذ  وجود دارد. تم کاغذ از تم کیتا کمی قدیمی تر است. ولی من تا به حال کسی را ندیده ام که از تم کاغذ استفاده کند&lt;&#x2F;p&gt;
+&lt;p&gt;استفاده از تم کیتا بسیار راحت است کافیست با دستور زیر ریپازیتوری را دانلود کنید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;git clone https:&#x2F;&#x2F;github.com&#x2F;st1020&#x2F;kita
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;بعد اینکار کافیست به دایرکتوری اصلی پروژه کیتا بروید سپس بلاگ خود را طراحی کنید&lt;&#x2F;p&gt;
+&lt;p&gt;با دستور زیر خروجی را در مرورگر ببینید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola serve
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;حتما باید برنامه getzola در کامپیوتر&#x2F;لپتاپ شما نصب باشد تا خروجی بگیرید&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chnd-fwrkh-z-tm-khyt-wjwd-drd&quot;&gt;چند فورک از تم کیتا وجود دارد؟&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;github&#x2F;forks&#x2F;st1020&#x2F;kita&quot; alt=&quot;Fork&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fwrkh-hy-trjmh-shdh-z-khyt-khdm-hstnd&quot;&gt;فورک های ترجمه شده از کیتا کدام هستند؟&lt;&#x2F;h2&gt;
+&lt;p&gt;در حال حاضر در سال ۲۰۲۴ که ۷ فورک تنها وجود دارد خیر فکر نمیکنیم ترجمه باشد&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ay-tm-khyt-trjmh-frsy-drd&quot;&gt;آیا تم کیتا ترجمه فارسی دارد؟&lt;&#x2F;h2&gt;
+&lt;p&gt;بله تم کیتا یک ترجمه فارسی دارد که همین پروژه ای است که مشاهده میکنید
+در پست بعدی شما را با نصب کیتا ی فارسی آشنا خواهیم کرد&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tm-frsy-khyt-chh-chyz-hyy-r-drwn-khwd-drd&quot;&gt;تم فارسی کیتا چه چیز هایی را درون خود دارد&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;تاریخ فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;اعداد فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;راستچین و چپ چین&lt;&#x2F;li&gt;
+&lt;li&gt;فونت وزیر&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>تم فارسی کیتا</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/how-to-setup-kita-farsi/"/>
+        <id>https://thecode764.github.io/kita/how-to-setup-kita-farsi/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/how-to-setup-kita-farsi/">&lt;p&gt;سلام در این مقاله شما را با نحوه فعال کردن کیتا ی فارسی آشنا میکنیم&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pysh-nyz&quot;&gt;پیش نیاز&lt;&#x2F;h2&gt;
+&lt;p&gt;پیش نیاز خاصی وجود ندارد&lt;&#x2F;p&gt;
+&lt;p&gt;فقط getzola را نصب کنید&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ay-khyt-y-frsy-ykh-nskhh-rsmy-z-khyt-st&quot;&gt;آیا کیتا ی فارسی یک نسخه رسمی از کیتا است؟&lt;&#x2F;h2&gt;
+&lt;p&gt;خیر. این فقط یک پروژه است که از تم اصلی کیتا فورک شده و با استفاده از کلمات فارسی و فونت وزیر توانسته کیتا را به طور کامل به فارسی ترجمه کند.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ay-bry-stfdh-z-yn-tm-byd-pwl-prdkht-khnym&quot;&gt;آیا برای استفاده از این تم باید پول پرداخت کنیم؟&lt;&#x2F;h2&gt;
+&lt;p&gt;خیر. این یک پروژه آزاد و متن باز است. شما میتوانید در توسعه این پروژه به ما کمک کنید تنها کافیست این مقاله را تا آخر بخوانید که به شما از صفر تا صد توضیح دهیم.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nhwh-nsb-getzola&quot;&gt;نحوه نصب getzola&lt;&#x2F;h2&gt;
+&lt;p&gt;اینجا چند روش برای نصب زولا را برای شما گذاشته ایم.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;arch-lynwkhs-mnjrw-w-dygrn&quot;&gt;آرچ لینوکس&#x2F;مانجارو&#x2F;و دیگران&lt;&#x2F;h3&gt;
+&lt;p&gt;برای نصب در توزیع های لینوکس آرچ بیس کافیست دستور زیر را بزنید&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; pacman&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -S&lt;&#x2F;span&gt;&lt;span&gt; zola
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;بعد اینکار رمز کامپیوتر&#x2F;لپتاپ خود را وارد کنید. بعد با نصب موافقت کنید.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dbyn-wbwntw-w-dygrn&quot;&gt;دبیان&#x2F;اوبونتو&#x2F;و دیگران&lt;&#x2F;h3&gt;
+&lt;p&gt;من شنیده ام که میتوانید با اسنپ-استور زولا را در دبیان و اوبونتو و بقیه توزیع های بر پایه اوبونتو&#x2F;دبیان نصب کنید.
+&lt;strong&gt;اول مطم‌ءن شوید که اسنپ-استور به درستی نصب شده است&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; snap install zola&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --edge
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;با این دستور میتوانید زولا را در دبیان&#x2F;اوبونتو و دیگر توزیع های بر پایه دبیان&#x2F;اوبونتو نصب کنید.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wyndwz&quot;&gt;ویندوز&lt;&#x2F;h3&gt;
+&lt;p&gt;ویندوز را باید از بخش نسخه های زولا دانلود کنید.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&#x2F;releases&quot;&gt;نسخه ها&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;بعد با اکسترکت کردن فایل و سپس باز کردن فایل و نصب کردن. زولا با موفقیت نصب میشود&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nhwh-nsb-khyt-y-frsy&quot;&gt;نحوه نصب کیتا ی فارسی&lt;&#x2F;h2&gt;
+&lt;p&gt;نصب کیتا ی فارسی مانند کیتا اصلی با submodule یا clone کردن صورت میگیرد&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bh-rwsh-khlwn-khrdn&quot;&gt;به روش کلون کردن&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;bh-rwsh-sb-mjwl&quot;&gt;به روش ساب ماژول&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; submodule add https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita.git
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;بعد اینکه ریپو را کلون یا به صورت ساب ماژول دانلود کردید مراحل بعدی را طی کنید&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shrw-stfdh&quot;&gt;شروع استفاده&lt;&#x2F;h2&gt;
+&lt;p&gt;استفاده از کیتا ی فارسی &lt;strong&gt;دقیقا&lt;&#x2F;strong&gt; مثل همان کیتا اصلی است هیچ تغییری در سینتکس نیست&lt;&#x2F;p&gt;
+&lt;p&gt;تنها مورد های زیر اضافه شده&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;فونت وزیر&lt;&#x2F;li&gt;
+&lt;li&gt;تاریخ فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;اعداد فارسی&lt;&#x2F;li&gt;
+&lt;li&gt;تغییرات کوچکی در استایل&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;همانطور که میبینید &lt;strong&gt;هیچ تغییری&lt;&#x2F;strong&gt; در &lt;strong&gt;سینتکس&lt;&#x2F;strong&gt; اعمال &lt;strong&gt;نشده است&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;مطمءنا قبل از رسیدن به این بخش بلاگ ساز زولا را نصب کرده اید. و ریپو را هم کلون یا به صورت ساب ماژول دانلود کردید. حال نوبت این است که شروع کنیم.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; kita
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;همانطور که میبینید دایرکتوری خود را به کیتا ی فارسی تغییر میدهید&lt;&#x2F;p&gt;
+&lt;p&gt;حال وقت این است که تست کنیم. و مطمءن شویم به طور درست کلون یا به صورت ساب ماژول دانلود کرده ایم.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;zola serve
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;با این دستور یک پورت لوکال هاست برای شما درست میشود به آن لینک بروید سپس میتوانید یک نمونه از کیتا ی فارسی را ببینید&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shrw-nwshtn&quot;&gt;شروع نوشتن&lt;&#x2F;h2&gt;
+&lt;p&gt;به فایل های دیگر کاری نداشته باشید. تنها تمرکز خود را در پوشه content&#x2F; بگذارید&lt;&#x2F;p&gt;
+&lt;p&gt;اگر دقت کنید در بخش اصلی پوشه content ۳ فایل مارک داون وجود دارد&lt;&#x2F;p&gt;
+&lt;p&gt;در این فایل ها مقاله های بلاگ شما قرار میگرد&lt;&#x2F;p&gt;
+&lt;p&gt;میتوانید این ۳ فایل را پاک کنید اگر یک فایل با نام _index.md دیدید به هیچ وجه آن را حذف نکنید&lt;&#x2F;p&gt;
+&lt;p&gt;همه ی مقاله هایی که در بلاگ خود قرار میدهید باید با این شروع شود&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;title = &amp;quot;چطوری کیتا ی فارسی را نصب و استفاده کنیم؟&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;date = &amp;quot;1403-03-08&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;description = &amp;quot;در این پست شما را با نحوه استفاده از کیتا ی فارسی آشنا خواهیم کرد&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;اگر دقت کنید این سینتکس اصلا با سینتکس کیتا ی اصلی &lt;strong&gt;فرق ندارد&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;بعد میتوانید هر چقدر که دوست دارید پست بنویسید&lt;&#x2F;p&gt;
+&lt;p&gt;آموزش تمام شد!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chtwry-bh-tws-h-y-khyt-y-frsy-khmkh-khnym&quot;&gt;چطوری به توسعه ی کیتا ی فارسی کمک کنیم؟&lt;&#x2F;h2&gt;
+&lt;p&gt;کافیست در &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Thecode764&#x2F;kita&quot;&gt;اینجا&lt;&#x2F;a&gt; یک فورک بگیرید&lt;&#x2F;p&gt;
+&lt;p&gt;تغییرات مورد نظر را وارد کنید&lt;&#x2F;p&gt;
+&lt;p&gt;سپس یک Pull request باز کنید. در اسرع وقت بررسی میکنیم.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>فعال کردن سیستم کامنت برای کیتا</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/turn-on-comment-system/"/>
+        <id>https://thecode764.github.io/kita/turn-on-comment-system/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/turn-on-comment-system/">&lt;p&gt;چطوری سیستم کامنت را برای کیتا ی فارسی فعال کنیم بسیار ساده است&lt;&#x2F;p&gt;
+&lt;p&gt;فایل config.toml را باز کنید&lt;&#x2F;p&gt;
+&lt;p&gt;وارد سایت giscus شوید&lt;&#x2F;p&gt;
+&lt;p&gt;فرم را پر کنید&lt;&#x2F;p&gt;
+&lt;p&gt;اطلاعات زیر را وارد کنید&lt;&#x2F;p&gt;
+&lt;p&gt;تمام متغیر ها را با خروجی ای که giscus می دهد جایگزین کنید&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;[extra.giscus]
+&lt;&#x2F;span&gt;&lt;span&gt;repo = &amp;quot;Thecode764&#x2F;kita&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;repo_id = &amp;quot;R_kgDOMBFtNQ&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;category = &amp;quot;General&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;category_id = &amp;quot;DIC_kwDOMBFtNc4Cfp-K&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;mapping = &amp;quot;pathname&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;strict = 0
+&lt;&#x2F;span&gt;&lt;span&gt;reactions_enabled = 1
+&lt;&#x2F;span&gt;&lt;span&gt;emit_metadata = 0
+&lt;&#x2F;span&gt;&lt;span&gt;input_position = &amp;quot;bottom&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;theme = &amp;quot;dark&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;lang = &amp;quot;fa&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;loading = &amp;quot;lazy&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>چه قابلیت هایی به کیتا ی فارسی اضافه کنیم؟</title>
+        <published>1403-03-08T00:00:00+00:00</published>
+        <updated>1403-03-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/what-features/"/>
+        <id>https://thecode764.github.io/kita/what-features/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/what-features/">&lt;p&gt;سلام&lt;&#x2F;p&gt;
+&lt;p&gt;این لیست قابلیت هایی است که باید فردا به کیتا ی فارسی اضافه کنیم&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;آپدیت کردن استایل&lt;&#x2F;li&gt;
+&lt;li&gt;اضافه کردن کامپوننت های جدید به کیتا ی فارسی&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fa">
+        <title>خوش آمدید</title>
+        <published>1403-03-07T00:00:00+00:00</published>
+        <updated>1403-03-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              آرتین کریمی
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://thecode764.github.io/kita/welcome/"/>
+        <id>https://thecode764.github.io/kita/welcome/</id>
+        
+        <content type="html" xml:base="https://thecode764.github.io/kita/welcome/">&lt;p&gt;خوش آمدید&lt;&#x2F;p&gt;
+&lt;p&gt;اولین پست در بلاگ&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;کد را اینجا قرار دهید
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;nwn&quot;&gt;عنوان&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;nwn-1&quot;&gt;عنوان ۱&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;nwn-2&quot;&gt;عنوان ۲&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;nwn-3&quot;&gt;عنوان ۳&lt;&#x2F;h3&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,20 @@
+{% extends "index.html" %}<!---->
+{% block main %}<!---->
+
+{% for asset in page.assets %}<!---->
+{% if asset is ending_with("data.toml") %}<!---->
+{% set_global data = load_data(path=asset, format="toml") %}<!---->
+{% endif %}<!---->
+{% endfor %}<!---->
+
+<h1 class="mb-16">فرسته ها</h1>
+{% for post in data.post %}
+<div class="not-prose block-bg my-4 flex w-full flex-col rounded-lg px-5 py-1.5">
+  <div class="bg-[#181818] rounded-lg">
+    <img class="sm:ml-9 2xl:ml-[8.4rem] rounded-lg" src="{{ post.image }}" alt="Your post">
+    <br>
+    <p class="dark:text-white text-white">{{ post.description }}</p>
+  </div>
+</div>
+{% endfor %}<!---->
+{% endblock main %}
