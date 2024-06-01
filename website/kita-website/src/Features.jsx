@@ -1,5 +1,5 @@
 import './App.css';
-
+import Screenshot from './Screenshot.jsx'
 import Feature from './Feature.jsx';
 import Button from './Button.jsx'
 
@@ -18,6 +18,8 @@ function Features() {
                 <Feature name="Social icons" description="Kita supports social icons. the repo link for social icons https://cdn.jsdelivr.net/npm/simple-icons/icons/" />
                 <br />
                 <Feature name="Comments" description="Kita supports comment system for you blog posts. Setup giscus on you repo for use comment system" />
+                <br /><br />
+                <Screenshot />
                 <br /><br />
                 <Button />
             </div>
