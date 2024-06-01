@@ -3,5 +3,5 @@ image = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExMW
 description = "بخش پست راه اندازی شد! مدتی بود که در فکر این بودیم سیستم گذاشتن پست را برای کیتا فعال کنیم. و در آخر هم این اتفاق افتاد"
 
 [[post]]
-image = "content://com.android.chrome.FileProvider/images/screenshot/1717248166588497781179.png"
+image = "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
 description = "یه پست توی بلاگ نوشتم به اسم نکته جالب در مورد کیتا حتما بخونید"
