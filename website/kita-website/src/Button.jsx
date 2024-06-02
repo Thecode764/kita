@@ -11,6 +11,7 @@ function Button() {
             <button>Demo (Persian Kita offiicial blog)</button>
             </a>
         </div>
+        <p className='text-center'>Built with 💝 With Persian kita developers</p>
         </>
     )
 }
