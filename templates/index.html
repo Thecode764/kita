@@ -17,10 +17,6 @@
       {% if paginator is undefined or paginator.current_index == 1 %}<!---->
       {% include "partials/profile.html" %}<!---->
       {% endif %}<!---->
-      <div class="flex justify-center items-center">
-        {% include "partials/search.html" %}
-      </div>
-      <br>
       {% include "partials/page_list.html" %}<!---->
 
       {% endblock main %}
@@ -32,84 +28,4 @@
 <script>
   document.getElementById("today").innerHTML = new Date().toLocaleDateString('fa-IR');
 </script>
-<script>
-  // getting all required elements
-const searchWrapper = document.querySelector(".search-input");
-const inputBox = searchWrapper.querySelector("input");
-const suggBox = searchWrapper.querySelector(".autocom-box");
-const icon = searchWrapper.querySelector(".icon");
-let linkTag = searchWrapper.querySelector("a");
-let webLink;
 
-// if user press any key and release
-inputBox.onkeyup = (e)=>{
-    let userData = e.target.value; //user enetered data
-    let emptyArray = [];
-    if(userData){
-        icon.onclick = ()=>{
-            webLink = `https://www.google.com/search?q=${userData}`;
-            linkTag.setAttribute("href", webLink);
-            linkTag.click();
-        }
-        emptyArray = suggestions.filter((data)=>{
-            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
-            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
-        });
-        emptyArray = emptyArray.map((data)=>{
-            // passing return data inside li tag
-            data = `<li>${data}</li>`;
-        });
-        searchWrapper.classList.add("active"); //show autocomplete box
-        showSuggestions(emptyArray);
-        let allList = suggBox.querySelectorAll("li");
-        for (let i = 0; i < allList.length; i++) {
-            //adding onclick attribute in all li tag
-            allList[i].setAttribute("onclick", "select(this)");
-        }
-    }else{
-        searchWrapper.classList.remove("active"); //hide autocomplete box
-    }
-}
-
-function select(element){
-    let selectData = element.textContent;
-    inputBox.value = selectData;
-    icon.onclick = ()=>{
-        webLink = `https://www.google.com/search?q=${selectData}`;
-        linkTag.setAttribute("href", webLink);
-        linkTag.click();
-    }
-    searchWrapper.classList.remove("active");
-}
-
-function showSuggestions(list){
-    let listData;
-    if(!list.length){
-        let userValue = inputBox.value;
-        listData = `<li>${userValue}</li>`;
-    }else{
-      listData = list.join('');
-    }
-    suggBox.innerHTML = listData;
-}
-
-
-
-// You Create new javascript file, File Name  suggestions., and Paste the Code
-
-let suggestions = [
-    "نحوه فعال سازی RSS در کیتا",
-    "خوش آمدید",
-    "چه قابلیت هایی به کیتا ی فارسی اضافه کنیم؟",
-    "فعال کردن سیستم کامنت",
-    "تم فارسی کیتا",
-    "درباره تم کیتا",
-    "قابلیت جدید باز هم به کیتا ی فارسی اضافه شد",
-    "نسخه جدید از کیتا ی فارسی منتشر شد!",
-    "صفحه ی تگ ها برگشت",
-    "قابلیت جستجو اضافه شد!",
-    "چگونه در کیتا ی فارسی پست یا همان فرسته بفرستیم",
-    "نکته جالب در مورد کیتا ی فارسی و کیتا"
-];
-
-</script>
