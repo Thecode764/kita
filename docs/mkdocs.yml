@@ -1,0 +1,19 @@
+site_name: Persian kita
+site_url: https://thecode764.github.io/kita/docs
+theme:
+  name: material
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: github-mark/github-mark-white.svg
+repo_url: https://github.com/Thecode764/kita 

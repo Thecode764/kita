@@ -60,6 +60,9 @@ Copyright (c) 2023-present, st1020
 
 The official website is https://thecode764.github.io/Kita-website
 
+## Docs 
+The official docs is https://thecode764.github.io/kita/docs
+
 ## Badges
 
 ![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
