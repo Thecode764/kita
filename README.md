@@ -67,3 +67,7 @@ The official docs is https://thecode764.github.io/kita-docs
 ## Badges
 
 ![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
+
+## Notes
+> [!NOTE]  
+> Please verify you blog with this link https://thecode764.github.io/Kita-website comment it you blog url
