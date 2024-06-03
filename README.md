@@ -71,3 +71,7 @@ The official docs is https://thecode764.github.io/kita-docs
 ## Notes
 > [!NOTE]  
 > Please verify you blog with this link https://thecode764.github.io/Kita-website comment it you blog url
+
+## Important
+> [!IMPORTANT]  
+> If you website blog is not working check status https://thecode764.github.io/kita/status
