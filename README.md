@@ -58,10 +58,11 @@ Copyright (c) 2023-present, st1020
 
 ## Official website
 
-The official website is https://thecode764.github.io/Kita-website
+![Website](./screenshots/website.jpg)
 
 ## Docs 
 The official docs is https://thecode764.github.io/kita-docs
+
 
 ## Badges
 
