@@ -1,0 +1,32 @@
+{% extends "index.html" %}<!---->
+{% block main %}
+<h1>وضعیت</h1>
+<aside class="bg-black text-white p-6 rounded-lg w-full max-w-md font-mono">
+    <div class="flex justify-between items-center">
+      <div class="flex space-x-2 text-red-500">
+        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+      </div>
+      <p class="text-sm">Persian kita shell</p>
+    </div>
+    <div class="mt-4">
+      <p class="text-green-400">$ get status</p>
+      <p class="text-white">Persian kita theme status:  </p>
+      <p class="text-blue-500">Appveyor status: <img src="https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true" alt="Appveyor Status"></p>
+      <p class="text-amber-500">Website status: <img src="https://github.com/Thecode764/kita/actions/workflows/static.yml/badge.svg"></p>
+      <p class="text-gray-600">Zola blog status: <img src="https://github.com/Thecode764/kita/actions/workflows/publish-pages.yml/badge.svg"></p>
+      <p class="text-orange-600">Tmate status: <img src="https://github.com/Thecode764/kita/actions/workflows/tmate.yml/badge.svg"></p>
+      <p class="text-green-400" id="status">$ </p>
+    </div>
+  </aside>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+     var typed = new Typed('#status', {
+      strings: [`$ Check the badges. if everything is passing ok! exit now!`],
+      typeSpeed: 50,
+      showCursor: false
+    });
+</script>
+  
+{% endblock main %}
