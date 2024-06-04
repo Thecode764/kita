@@ -80,3 +80,13 @@ The official docs is https://thecode764.github.io/kita-docs
 ## Important
 > [!IMPORTANT]  
 > If you website blog is not working check status https://thecode764.github.io/kita/status
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
