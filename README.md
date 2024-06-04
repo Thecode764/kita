@@ -76,7 +76,7 @@ The official docs is https://thecode764.github.io/kita-docs
 
 ## Have question Ask it!
 
-[Forun](https://persian-kita.discourse.group/)
+[Forum](https://persian-kita.discourse.group/)
 ## Important
 > [!IMPORTANT]  
 > If you website blog is not working check status https://thecode764.github.io/kita/status
