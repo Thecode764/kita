@@ -27,7 +27,8 @@
         "plugin",
         "infra",
         "example",
-        "blog"
+        "blog",
+        "bug"
       ]
     }
   ],
