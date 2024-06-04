@@ -66,7 +66,7 @@ The official docs is https://thecode764.github.io/kita-docs
 
 ## Badges
 
-![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)\
+![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
 
