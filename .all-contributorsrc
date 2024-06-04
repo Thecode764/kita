@@ -30,6 +30,15 @@
         "blog",
         "bug"
       ]
+    },
+    {
+      "login": "st1020",
+      "name": "Stone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47559019?v=4",
+      "profile": "https://st1020.com/",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
