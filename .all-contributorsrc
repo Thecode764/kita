@@ -29,7 +29,8 @@
         "example",
         "blog",
         "bug",
-        "translation"
+        "translation",
+        "a11y"
       ]
     }
   ],
