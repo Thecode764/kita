@@ -1,6 +1,6 @@
 # Kita
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
@@ -92,6 +92,7 @@ The official docs is https://thecode764.github.io/kita-docs
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://thecode764.github.io"><img src="https://avatars.githubusercontent.com/u/141347375?v=4?s=100" width="100px;" alt="Artin karimi"/><br /><sub><b>Artin karimi</b></sub></a><br /><a href="#design-Thecode764" title="Design">🎨</a> <a href="https://github.com/Thecode764/kita/commits?author=Thecode764" title="Code">💻</a> <a href="https://github.com/Thecode764/kita/commits?author=Thecode764" title="Documentation">📖</a> <a href="#content-Thecode764" title="Content">🖋</a> <a href="#tutorial-Thecode764" title="Tutorials">✅</a> <a href="#talk-Thecode764" title="Talks">📢</a> <a href="https://github.com/Thecode764/kita/commits?author=Thecode764" title="Tests">⚠️</a> <a href="#tool-Thecode764" title="Tools">🔧</a> <a href="https://github.com/Thecode764/kita/pulls?q=is%3Apr+reviewed-by%3AThecode764" title="Reviewed Pull Requests">👀</a> <a href="#question-Thecode764" title="Answering Questions">💬</a> <a href="#projectManagement-Thecode764" title="Project Management">📆</a> <a href="#plugin-Thecode764" title="Plugin/utility libraries">🔌</a> <a href="#infra-Thecode764" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#example-Thecode764" title="Examples">💡</a> <a href="#blog-Thecode764" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://renovatebot.com"><img src="https://avatars.githubusercontent.com/u/38656520?v=4?s=100" width="100px;" alt="Renovate Bot"/><br /><sub><b>Renovate Bot</b></sub></a><br /><a href="https://github.com/Thecode764/kita/issues?q=author%3Arenovatebot" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
