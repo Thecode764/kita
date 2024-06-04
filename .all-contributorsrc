@@ -21,7 +21,9 @@
         "talk",
         "test",
         "tool",
-        "review"
+        "review",
+        "question",
+        "projectManagement"
       ]
     }
   ],
