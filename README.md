@@ -74,6 +74,9 @@ The official docs is https://thecode764.github.io/kita-docs
 > [!NOTE]  
 > Please verify you blog with this link https://thecode764.github.io/Kita-website comment it you blog url
 
+## Have question Ask it!
+
+[Forun](https://persian-kita.discourse.group/)
 ## Important
 > [!IMPORTANT]  
 > If you website blog is not working check status https://thecode764.github.io/kita/status
