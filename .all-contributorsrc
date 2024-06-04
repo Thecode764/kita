@@ -26,7 +26,8 @@
         "projectManagement",
         "plugin",
         "infra",
-        "example"
+        "example",
+        "blog"
       ]
     }
   ],
