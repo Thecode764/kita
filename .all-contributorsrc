@@ -24,7 +24,8 @@
         "review",
         "question",
         "projectManagement",
-        "plugin"
+        "plugin",
+        "infra"
       ]
     }
   ],
