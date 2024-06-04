@@ -1,0 +1,32 @@
+name: Post to Mastodon
+
+on:
+  push:
+    branches:
+      - main # Trigger on push to the main branch
+  schedule:
+    - cron: '0 * * * *' # Example: Run every hour
+
+jobs:
+  post-to-mastodon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mastodon.py
+
+      - name: Post to Mastodon
+        uses: aeisenberg/mastodon-action@v1
+        with:
+          instance: '${{ job.status }}'
+          token: ${{ secrets.MASTODON_TOKEN }}
+          status: 'Hello! New commit at https://github.com/Thecode764/kita. Status: ${{ job.status }}'
+          visibility: 'public' 
