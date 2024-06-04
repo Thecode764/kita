@@ -28,7 +28,8 @@
         "infra",
         "example",
         "blog",
-        "bug"
+        "bug",
+        "translation"
       ]
     }
   ],
