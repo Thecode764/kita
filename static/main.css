@@ -1175,10 +1175,6 @@ body {
   right: 2rem;
 }
 
-.bottom-20 {
-  bottom: 5rem;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -1808,14 +1804,14 @@ body {
   color: rgb(163 230 53 / var(--tw-text-opacity));
 }
 
-.text-orange-600 {
-  --tw-text-opacity: 1;
-  color: rgb(234 88 12 / var(--tw-text-opacity));
-}
-
 .text-purple-300 {
   --tw-text-opacity: 1;
   color: rgb(216 180 254 / var(--tw-text-opacity));
+}
+
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
