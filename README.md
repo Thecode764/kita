@@ -91,7 +91,7 @@ The official docs is https://thecode764.github.io/kita-docs
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://thecode764.github.io"><img src="https://avatars.githubusercontent.com/u/141347375?v=4?s=100" width="100px;" alt="Artin karimi"/><br /><sub><b>Artin karimi</b></sub></a><br /><a href="#design-Thecode764" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://thecode764.github.io"><img src="https://avatars.githubusercontent.com/u/141347375?v=4?s=100" width="100px;" alt="Artin karimi"/><br /><sub><b>Artin karimi</b></sub></a><br /><a href="#design-Thecode764" title="Design">🎨</a> <a href="https://github.com/Thecode764/kita/commits?author=Thecode764" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
