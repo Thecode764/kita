@@ -23,7 +23,8 @@
         "tool",
         "review",
         "question",
-        "projectManagement"
+        "projectManagement",
+        "plugin"
       ]
     }
   ],
