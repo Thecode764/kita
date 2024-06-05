@@ -117,3 +117,6 @@ The official docs is https://thecode764.github.io/kita-docs
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## Release notes
+See [RELEASES.md](./RELEASES.md)
