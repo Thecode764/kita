@@ -123,7 +123,8 @@ See [RELEASES.md](./RELEASES.md)
 
 ## Blog posts
 <!-- BLOG-POST-LIST:START -->
-
-
-
+- [صفحه ریلیز ها راه اندازی شد!](https://thecode764.github.io/kita/releases-page-is-out/)
+- [فروم کیتا راه اندازی شد!](https://thecode764.github.io/kita/forum-is-out/)
+- [چطور کیتا ی فارسی را توسعه دهیم؟](https://thecode764.github.io/kita/contributor/)
+- [صفحه وضیعت راه اندازی شد!](https://thecode764.github.io/kita/status-page-is-out/)
 <!-- BLOG-POST-LIST:END -->
