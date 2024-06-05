@@ -13,4 +13,4 @@ jobs:
               with: 
                 max_post_count: "4"
                 feed_list: "https://thecode764.github.io/kita/atom.xml"
-                commiter_email: blog-poster@github.com
+                commiter_email: actions@github.com
