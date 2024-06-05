@@ -12,5 +12,5 @@ jobs:
             - uses: gautamkrishnar/blog-post-workflow@master
               with: 
                 max_post_count: "4"
-                feed_list: "https://thecode764.github.io/kita/atom.xml/"
+                feed_list: "https://thecode764.github.io/kita/atom.xml"
                 commiter_email: blog-poster@github.com
