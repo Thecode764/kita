@@ -120,3 +120,10 @@ The official docs is https://thecode764.github.io/kita-docs
 
 ## Release notes
 See [RELEASES.md](./RELEASES.md)
+
+## Blog posts
+<!-- BLOG-POST-LIST:START -->
+
+
+
+<!-- BLOG-POST-LIST:END -->
