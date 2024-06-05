@@ -59,6 +59,10 @@ See the `extra` section in [config.toml](https://github.com/Thecode764/kita/blob
 
 [MIT License](https://github.com/Thecode764/kita/blob/main/LICENSE)
 
+Copyright (c) 2024-present, Artin karimi
+
+Original:
+
 Copyright (c) 2023-present, st1020
 
 ## Official website
