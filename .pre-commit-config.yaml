@@ -6,4 +6,4 @@ repos:
     -   id: check-yaml
         exclude: ^(.github/ISSUE_TEMPLATE/config.yml)
     -   id: check-toml
-    -   id: pretty-format-json
+    -   id: check-xml
