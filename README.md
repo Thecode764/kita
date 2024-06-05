@@ -79,6 +79,9 @@ The official docs is https://thecode764.github.io/kita-docs
 > [!NOTE]  
 > Please verify you blog with this link https://thecode764.github.io/Kita-website comment it you blog url
 
+> [!WARNING]
+> Thia project is a fork from [Original project](https://github.com/st1020/kita) with some new features
+
 ## Have question Ask it!
 
 [Forum](https://persian-kita.discourse.group/)
