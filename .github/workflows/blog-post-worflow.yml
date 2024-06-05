@@ -13,4 +13,6 @@ jobs:
               with: 
                 max_post_count: "4"
                 feed_list: "https://thecode764.github.io/kita/atom.xml"
-                commiter_email: actions@github.com
+                committer_username: Kita post bot
+                committer_email: kita-bot@thecode764.github.io
+                commit_message: Update with latest blog posts
