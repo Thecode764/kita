@@ -120,6 +120,10 @@ url = "$BASE_URL/chat"
 name = "فرسته"
 url = "$BASE_URL/post"
 
+[[extra.menu]]
+name = "فروم"
+url = "https://persian-kita.discourse.group"
+
 # The page footer options.
 [extra.footer]
 since = 2024
