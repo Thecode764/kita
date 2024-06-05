@@ -3,6 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=for-the-badge)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+![Latest release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FThecode764%2Fkita%2Freleases%2Flatest&query=name&style=for-the-badge&logo=github&logoColor=black&label=LATEST%20RELEASE&labelColor=gray&color=black)
+
 Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
 
 This theme is based on Hugo theme [hugo-paper](https://github.com/nanxiaobei/hugo-paper) with some features added.
