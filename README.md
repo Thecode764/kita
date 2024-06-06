@@ -12,7 +12,7 @@
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
 
-![Build]( statushttps://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml)
+![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml)
 
 
 Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
