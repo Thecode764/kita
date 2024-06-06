@@ -129,8 +129,8 @@ See [RELEASES.md](./RELEASES.md)
 
 ## Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [چگونه بلاگ زولا را در github pages دیپلوی کنیم؟](https://thecode764.github.io/kita/deploy-zola-blog-in-gh-pages/)
 - [قابلیت mirror کنسل شد!](https://thecode764.github.io/kita/mirror-feature-cancled/)
 - [بخش Mirror به زودی اضافه میشود!](https://thecode764.github.io/kita/mirror-is-coming-soon/)
 - [نسخه ۲.۲ کیتا ی فارسی منتشر شد!](https://thecode764.github.io/kita/2-2-version-is-out/)
-- [بخش ریلیز ها برای داکیومنت هم اضافه شد!](https://thecode764.github.io/kita/release-notes-section-added-for-docs/)
 <!-- BLOG-POST-LIST:END -->
