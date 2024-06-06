@@ -123,8 +123,8 @@ See [RELEASES.md](./RELEASES.md)
 
 ## Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [بخش Mirror به زودی اضافه میشود!](https://thecode764.github.io/kita/mirror-is-coming-soon/)
 - [بخش ریلیز ها برای داکیومنت هم اضافه شد!](https://thecode764.github.io/kita/release-notes-section-added-for-docs/)
 - [صفحه ریلیز ها راه اندازی شد!](https://thecode764.github.io/kita/releases-page-is-out/)
 - [فروم کیتا راه اندازی شد!](https://thecode764.github.io/kita/forum-is-out/)
-- [چطور کیتا ی فارسی را توسعه دهیم؟](https://thecode764.github.io/kita/contributor/)
 <!-- BLOG-POST-LIST:END -->
