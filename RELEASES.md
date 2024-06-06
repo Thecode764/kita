@@ -21,3 +21,9 @@
 [Download full zip](https://github.com/Thecode764/kita/archive/refs/tags/version-2.0.zip)
 
 [View at official website](https://thecode764.github.io/kita/version/2.0)
+## Version 2.1
+[Download at release pages](https://github.com/Thecode764/kita/releases/tag/version-2.1)
+
+[Download full zip](https://github.com/Thecode764/kita/archive/refs/tags/version-2.1.zip)
+
+[View at official website](https://thecode764.github.io/kita/version/2.1)
