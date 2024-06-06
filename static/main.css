@@ -1679,6 +1679,10 @@ body {
   padding-bottom: 0.625rem;
 }
 
+.pe-4 {
+  padding-inline-end: 1rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
