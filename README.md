@@ -14,6 +14,8 @@
 
 ![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml)
 
+![GitHub top language](https://img.shields.io/github/languages/top/Thecode764/kita)
+
 
 Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
 
