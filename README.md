@@ -5,6 +5,11 @@
 
 ![Latest release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FThecode764%2Fkita%2Freleases%2Flatest&query=name&style=for-the-badge&logo=github&logoColor=black&label=LATEST%20RELEASE&labelColor=gray&color=black)
 
+
+![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
+
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
+
 Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
 
 This theme is based on Hugo theme [hugo-paper](https://github.com/nanxiaobei/hugo-paper) with some features added.
@@ -71,13 +76,6 @@ Copyright (c) 2023-present, st1020
 
 ## Docs 
 The official docs is https://thecode764.github.io/kita-docs
-
-
-## Badges
-
-![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
-
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
 
 ## Notes
 > [!NOTE]  
