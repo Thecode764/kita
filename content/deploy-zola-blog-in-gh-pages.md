@@ -5,7 +5,7 @@ description = "برای یکی از کاربران پروژه ما گفته اس
 +++
 برای یکی از کاربران یک سوالی پیش آمد. گفتن چطوری بلاگ زولا خود را در github-pages دیپلوی کنیم؟ بسیار ساده است
 
-ما در این پروژه پیشنهاد میکنیم از [Zola deploy](https://github.com/st1020/zola-deploy)
+ما در این پروژه پیشنهاد میکنیم از [Zola deploy](https://github.com/st1020/zola-deploy) استفاده کنید
 
 خب توی پروژتون یه فولدر درست کنین به اسم .github
 
@@ -15,7 +15,7 @@ description = "برای یکی از کاربران پروژه ما گفته اس
 
 کد زیر رو توش قرار بدین
 
-```
+```yaml
 name: Publish on GitHub Pages
 
 on:
