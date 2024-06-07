@@ -2,7 +2,7 @@
 base_url = "https://thecode764.github.io/kita/"
 
 # The site title and description; used in feeds by default.
-title = "کیتا 🇮🇷"
+title = "کیتا ی فارسی 🇮🇷"
 description = "یک تم زیبا و ساده برای بلاگ Zola."
 
 # The default site author.
