@@ -15,4 +15,4 @@ jobs:
                 feed_list: "https://thecode764.github.io/kita/atom.xml"
                 committer_username: github-actions[bot]
                 committer_email: github-actions[bot]@users.noreply.github.com
-                commit_message: Update with latest blog posts
+                commit_message: 📝 Update with latest blog posts
