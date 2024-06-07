@@ -67,8 +67,8 @@ header_dark_color = "black"
 
 # The profile on home page.
 [extra.profile]
-name = "کیتا - تم زولا"
-bio = "کیتا یک تم زیبا و ساده برای بلاگ زولا. ترجمه شده به فارسی. پایدار با قابلیت های جدید"
+name = "کیتا ی فارسی - فورک تم کیتا"
+bio = "کیتا ی فارسی یک تم زیبا و ساده برای بلاگ زولا. ترجمه شده به فارسی. پایدار با قابلیت های جدید"
 # The URL of avatar.
 avatar_url = "icons/github.svg"
 # Invert color in dark mode.
