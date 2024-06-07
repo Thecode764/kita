@@ -16,6 +16,8 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Thecode764/kita)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Thecode764_kita&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Thecode764_kita)
+
 
 Kita is a clean, elegant and simple blog theme for Zola. Translated to persian
 
