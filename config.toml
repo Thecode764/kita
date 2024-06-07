@@ -67,7 +67,7 @@ header_dark_color = "black"
 
 # The profile on home page.
 [extra.profile]
-name = "کیتا ی فارسی - فورک تم کیتا"
+name = "کیتا ی فارسی"
 bio = "کیتا ی فارسی یک تم زیبا و ساده برای بلاگ زولا. ترجمه شده به فارسی. پایدار با قابلیت های جدید"
 # The URL of avatar.
 avatar_url = "icons/github.svg"
