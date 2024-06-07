@@ -13,7 +13,7 @@ repository:
   homepage: https://thecode764.github.io/kita
 
   # A comma-separated list of topics to set on the repository
-  topics: github, probot
+  topics: zola, getzola, blog
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
