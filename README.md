@@ -14,7 +14,7 @@
 
 ![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml)
 
-![GitHub top language](https://img.shields.io/github/languages/top/Thecode764/kita)
+![GitHub top](https://img.shields.io/github/languages/top/Thecode764/kita?style=for-the-badge&logo=css3&logoColor=blue)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Thecode764_kita&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Thecode764_kita)
 
