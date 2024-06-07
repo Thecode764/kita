@@ -14,7 +14,7 @@ jobs:
             - name: Create again the BASE.md file
               run: touch BASE.md
             - name: Update with files and directories
-              run: echo ($eval cat) >> BASE.md
+              run: echo "$(cat)" >> BASE.md
             - name: Login to github action
               run: git config --global user.name "Github actions"
             - name: Email for github actions account
