@@ -93,3 +93,5 @@ description = "یه پست توی بلاگ نوشتم به اسم نکته جا�
 ```
 ## Notice
 - When you setup the comment section. automatically add Chat page
+## Deploy on github pages
+Use the [Zola deploy action](https://github.com/st1020/zola-deploy)
