@@ -1,7 +1,4 @@
 from yachalk import chalk
-
-print(chalk.bold("Welcome to the persian kita project. persian kita is a fork from kita theme with some features added"))
-
 print(chalk.bold("\nFeatures: "))
 
 print(chalk.bg_blue_bright("""
