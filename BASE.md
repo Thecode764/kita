@@ -1,1 +1,1 @@
-# Project filea and directories
+# Project files and directories
