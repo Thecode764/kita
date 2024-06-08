@@ -14,7 +14,7 @@
 
 ![Appveyor](https://img.shields.io/appveyor/build/Thecode764/kita?style=for-the-badge&logo=appveyor)
 
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main&style=for-the-badge)
 
 ![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml?style=for-the-badge)
 
