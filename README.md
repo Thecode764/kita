@@ -139,7 +139,7 @@ See [RELEASES.md](./RELEASES.md)
 
 ## Mirror
 ```sh
-cd mirror
+cd mirro
 cd directory-lister
 npm install
 npm run dev

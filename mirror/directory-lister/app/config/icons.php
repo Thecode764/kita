@@ -7,7 +7,6 @@ return [
      * class names.
      */
     'icons' => [
-        '7z' => 'fas fa-file-archive',
         'aac' => 'fas fa-music',
         'accdb' => 'fas fa-database',
         'ai' => 'fas fa-image',
@@ -19,7 +18,6 @@ return [
         'bat' => 'fas fa-terminal',
         'bmp' => 'fas fa-image',
         'box' => 'fas fa-archive',
-        'bz' => 'fas fa-file-archive',
         'c' => 'fas fa-code',
         'cfg' => 'fas fa-file-alt',
         'class' => 'fas fa-code',
@@ -43,7 +41,6 @@ return [
         'flv' => 'fas fa-video',
         'gam' => 'fas fa-gamepad',
         'gif' => 'fas fa-image',
-        'gz' => 'fas fa-file-archive',
         'htm' => 'fab fa-html5',
         'html' => 'fab fa-html5',
         'ico' => 'fas fa-image',
@@ -86,7 +83,6 @@ return [
         'ps' => 'fas fa-image',
         'psd' => 'fas fa-image',
         'py' => 'fab fa-python',
-        'rar' => 'fas fa-file-archive',
         'rb' => 'fas fa-code',
         'rom' => 'fas fa-gamepad',
         'rpm' => 'fas fa-archive',
@@ -96,7 +92,6 @@ return [
         'sql' => 'fas fa-database',
         'svg' => 'fas fa-image',
         'swf' => 'fas fa-video',
-        'tar' => 'fas fa-file-archive',
         'tga' => 'fas fa-image',
         'tif' => 'fas fa-image',
         'tiff' => 'fas fa-image',
@@ -113,7 +108,6 @@ return [
         'xls' => 'fas fa-file-excel',
         'xlsx' => 'fas fa-file-excel',
         'xml' => 'fas fa-code',
-        'xz' => 'fas fa-file-archive',
         'yaml' => 'fas fa-file-alt',
         'zip' => 'fas fa-file-archive',
     ],
