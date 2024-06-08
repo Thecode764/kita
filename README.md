@@ -16,7 +16,7 @@
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
 
-![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml&style=for-the-badge)
+![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml?style=for-the-badge)
 
 ![GitHub top](https://img.shields.io/github/languages/top/Thecode764/kita?style=for-the-badge&logo=css3&logoColor=blue)
 
