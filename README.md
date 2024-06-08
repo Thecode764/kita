@@ -9,12 +9,14 @@
 
 ![Total languages used](https://img.shields.io/github/languages/count/Thecode764/kita?style=for-the-badge&logo=github&logoColor=blacj&label=PROGRAMMING%20LANGUAGES&labelColor=black&color=gray)
 
+![Downloads badge](https://img.shields.io/github/downloads/Thecode764/kita/latest/total?style=for-the-badge&logo=github&logoColor=black&label=DOWNLOADS&labelColor=gray&color=black)
+
 
 ![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
 
-![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml)
+![Build](https://img.shields.io/github/actions/workflow/status/Thecode764/kita/static.yml&style=for-the-badge)
 
 ![GitHub top](https://img.shields.io/github/languages/top/Thecode764/kita?style=for-the-badge&logo=css3&logoColor=blue)
 
