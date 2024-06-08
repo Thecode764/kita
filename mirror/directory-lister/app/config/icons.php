@@ -10,7 +10,6 @@ return [
      
      */
     'icons' => [
-        'accdb' => 'fas fa-database',
         'ai' => 'fas fa-image',
         'apk' => 'fab fa-android',
         'app' => 'fas fa-window',
@@ -27,8 +26,6 @@ return [
         'cpp' => 'fas fa-code',
         'css' => 'fab fab fa-css3',
         'csv' => 'fas fa-file-csv',
-        'db' => 'fas fa-database',
-        'dbf' => 'fas fa-database',
         'deb' => 'fas fa-archive',
         'doc' => 'fas fa-file-word',
         'docx' => 'fas fa-file-word',
@@ -56,7 +53,6 @@ return [
         'log' => 'fas fa-file-alt',
         'mail' => 'fas fa-envelope',
         'md' => 'fab fa-markdown',
-        'mdb' => 'fas fa-database',
         'mkv' => 'fas fa-video',
         'mov' => 'fas fa-video',
         'mp4' => 'fas fa-video',
@@ -67,7 +63,6 @@ return [
         'odt' => 'fas fa-file-alt',
         'ogv' => 'fas fa-video',
         'otf' => 'fas fa-font-case',
-        'pdb' => 'fas fa-database',
         'pdf' => 'fas fa-file-pdf',
         'php' => 'fab fa-php',
         'phtml' => 'fab fa-html5',
@@ -84,7 +79,6 @@ return [
         'rtf' => 'fas fa-file-alt',
         'sav' => 'fas fa-save',
         'sh' => 'fas fa-terminal',
-        'sql' => 'fas fa-database',
         'svg' => 'fas fa-image',
         'swf' => 'fas fa-video',
         'tga' => 'fas fa-image',
