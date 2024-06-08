@@ -7,6 +7,8 @@
 
 ![Latest release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FThecode764%2Fkita%2Freleases%2Flatest&query=name&style=for-the-badge&logo=github&logoColor=black&label=LATEST%20RELEASE&labelColor=gray&color=black)
 
+![Total languages used](https://img.shields.io/github/languages/count/Thecode764/kita?style=for-the-badge&logo=github&logoColor=blacj&label=PROGRAMMING%20LANGUAGES&labelColor=black&color=gray)
+
 
 ![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
 
