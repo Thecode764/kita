@@ -28,7 +28,7 @@ services:
     container_name: directory-lister-redis
     ports:
       - ${REDIS_PORT:-6379}:6379
-    image: redis:6.0
+    image: redis:7.2
 
   npm:
     container_name: directory-lister-npm
