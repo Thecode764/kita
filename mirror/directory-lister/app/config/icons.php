@@ -1,11 +1,13 @@
-
 <?php
 
 return [
+
     /**
+     
      * Array of icon definitions where the array key is the file extension
      * (without a preceding dot) and the array value is the desired Font Awesome
      * class names.
+     
      */
     'icons' => [
         'accdb' => 'fas fa-database',
@@ -103,3 +105,5 @@ return [
         'zip' => 'fas fa-file-archive',
     ],
 ];
+
+
