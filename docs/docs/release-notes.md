@@ -14,3 +14,5 @@ Release notes section! All release notes from kita
 [Version 2.3](https://github.com/Thecode764/kita/releases/tag/version-2.3)
 
 [Version 2.4](https://github.com/Thecode764/kita/releases/tag/version-2.4)
+
+[Version 2.5](https://github.com/Thecode764/kita/releases/tag/version-2.5)
