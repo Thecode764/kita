@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Thecode764&repo=kita&show_owner=true&theme=dracula">
 </p>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&background=000000&center=true&vCenter=true&random=false&width=435&lines=Beep+boop!;I+currently+working+on+persian+kita;Kita+is+a+zola+blog+theme;On+this+project;i+translated+kita+to+persian+;the+new+name+of+kita+is+persian+kita;Beep+boop!+fetching+data+...;Wait+...;This+project+is+open+source+project;You+can+fork+this+project;Please+add+star+;Follow+me;Tnx;Beep+boop!+it's+sleeping+zzz)](https://git.io/typing-svg)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
