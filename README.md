@@ -20,6 +20,8 @@
 
 ![GitHub top](https://img.shields.io/github/languages/top/Thecode764/kita?style=for-the-badge&logo=css3&logoColor=blue)
 
+![Wakatime](https://wakatime.com/badge/user/186ebd96-46f0-4a90-94bb-eec738927bef/project/faf6418a-d11a-4067-9770-ea8806e8d88d.svg?style=for-the-badge)
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Thecode764_kita&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Thecode764_kita)
 
 
