@@ -136,3 +136,12 @@ See [RELEASES.md](./RELEASES.md)
 - [قابلیت mirror کنسل شد!](https://thecode764.github.io/kita/mirror-feature-cancled/)
 - [بخش Mirror به زودی اضافه میشود!](https://thecode764.github.io/kita/mirror-is-coming-soon/)
 <!-- BLOG-POST-LIST:END -->
+
+## Mirror
+```sh
+cd mirror
+cd directory-lister
+npm install
+npm run dev
+composer run serve
+```

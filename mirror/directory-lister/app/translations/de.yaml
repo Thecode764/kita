@@ -1,0 +1,20 @@
+home: Hauptverzeichnis
+download: Laden Sie dieses Verzeichnis herunter
+search: Suche
+file:
+  name: Dateiname
+  size: Größe
+  date: Datum
+  info: Dateiinformation
+powered_by: Unterstützt von
+scroll_to_top: Nach oben Scrollen
+toggle_theme: Schalten Sie den Hell/Dunkel-Modus um
+
+error:
+  directory_not_found: Verzeichnis nicht gefunden
+  file_not_found: Datei nicht gefunden
+  file_size_exceeded: Dateigröße zu groß
+  no_results_found: Keine Ergebnisse gefunden
+  unexpected: Ein unerwarteter Fehler ist aufgetreten
+
+enable_debugging: Aktivieren sie das "Debugging" für zusätzliche Informationen

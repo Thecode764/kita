@@ -1,0 +1,8 @@
+/app/vendor/
+/node_modules/
+/.coverage-cache/
+/.env
+/.hidden
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+/mix-manifest.json

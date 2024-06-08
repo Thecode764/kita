@@ -1,0 +1,41 @@
+parameters:
+
+  paths:
+    - app
+    - tests
+
+  excludePaths:
+    - app/cache/*
+    - app/vendor/*
+
+  stubFiles:
+    - stubs/DI/Container.stub
+
+  level: 8
+
+  checkFunctionNameCase: true
+  checkMissingIterableValueType: false
+
+  reportUnmatchedIgnoredErrors: false
+
+  exceptions:
+    implicitThrows: false
+
+    check:
+      missingCheckedExceptionInThrows: true
+      tooWideThrowType: true
+
+    uncheckedExceptionClasses:
+      - 'DI\DependencyException'
+      - 'InvalidArgumentException'
+      - 'Invoker\Exception\NotCallableException'
+      - 'LogicException'
+      - 'RuntimeException'
+      - 'Psr\Cache\InvalidArgumentException'
+      - 'SebastianBergmann\RecursionContext\InvalidArgumentException'
+      - 'Symfony\Component\Cache\Exception\CacheException'
+      - 'PHPUnit\Framework\Exception'
+
+includes:
+  - phpstan-baseline.neon
+  - phpstan-ignores.neon

@@ -1,0 +1,40 @@
+<a
+    href="{{ parentDir ? parent_url(path) : file_url(file.getPathname) }}"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-100 hover:shadow dark:hover:bg-purple-700"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+            {% if parentDir %}
+                <i class="fas fa-level-up-alt fa-fw fa-lg"></i>
+            {% else %}
+                {{ icon(file) | raw }}
+            {% endif %}
+        </div>
+
+        <div class="flex-1 truncate">
+            {{ parentDir ? '..' : file.getRelativePathname }}
+        </div>
+
+        {% if file.isFile %}
+            <div class="ml-2">
+                <button title="{{ translate('file.info') }}" @click.prevent="$dispatch('show-file-info', { file: '{{ url(file.getPathname) | escape('js') }}' })"
+                    class="justify-center items-center rounded-full w-8 h-8 -m-1 md:invisible hover:bg-gray-300 hover:shadow dark:hover:bg-purple-900 group-hover:visible"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        {% endif %}
+
+        <div class="hidden whitespace-nowrap text-right mx-2 w-1/6 sm:block">
+            {% if parentDir or file.isDir %}
+                    —
+            {% else %}
+                {{ size_for_humans(file) }}
+            {% endif %}
+        </div>
+
+        <div class="hidden whitespace-nowrap text-right truncate ml-2 w-1/4 sm:block">
+            {{ parentDir ? '—' : modified_time(file) }}
+        </div>
+    </div>
+</a>

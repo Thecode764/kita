@@ -1,0 +1,20 @@
+home: Hem
+download: Ladda ner hela katalogen
+search: Sök
+file:
+  name: Filnamn
+  size: Storlek
+  date: Datum
+  info: Filinformation
+powered_by: Drivs av
+scroll_to_top: Gå till sidans topp
+toggle_theme: Växla Ljust/Mörkt tema
+
+error:
+  directory_not_found: Katalog finns inte
+  file_not_found: Filen hittades inte
+  file_size_exceeded: Filstorleken är för stor
+  no_results_found: Inga resultat funna
+  unexpected: Ett oväntat fel uppstod
+
+enable_debugging: Aktivera felsökning för mer information
