@@ -12,7 +12,7 @@
 ![Downloads badge](https://img.shields.io/github/downloads/Thecode764/kita/latest/total?style=for-the-badge&logo=github&logoColor=black&label=DOWNLOADS&labelColor=gray&color=black)
 
 
-![Appveyor](https://ci.appveyor.com/api/projects/status/xlmrql7onkomtdry?svg=true)
+![Appveyor](https://img.shields.io/appveyor/build/Thecode764/kita?style=for-the-badge&logo=appveyor)
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Thecode764/kita/main.svg)](https://results.pre-commit.ci/latest/github/Thecode764/kita/main)
 
