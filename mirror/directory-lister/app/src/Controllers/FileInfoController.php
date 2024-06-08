@@ -23,23 +23,22 @@ class FileInfoController
     public function __invoke(Request $request, Response $response): ResponseInterface
     {
         $path = $request->getQueryParams()['info'];
-
         $file = new SplFileInfo(
-            (string) realpath($this->config->get('base_path') . '/' . $path)
+            (string)realpath($this->config->get('base_path'). '/'. $path)
         );
 
-        if (! $file->isFile()) {
+        if (!$file->isFile()) {
             return $response->withStatus(404, $this->translator->trans('error.file_not_found'));
         }
 
-        if ($file->getSize() >= (int) $this->config->get('max_hash_size')) {
+        if ($file->getSize() >= (int)$this->config->get('max_hash_size')) {
             return $response->withStatus(500, $this->translator->trans('error.file_size_exceeded'));
         }
 
         $response->getBody()->write($this->cache->get(
-            sprintf('file-info-%s', sha1((string) $file->getRealPath())),
+            sprintf('file-info-%s', sha256((string)$file->getRealPath())), // Changed to sha256
             function () use ($file): string {
-                return (string) json_encode(['hashes' => $this->calculateHashes($file)]);
+                return (string)json_encode(['hashes' => $this->calculateHashes($file)]);
             }
         ));
 
@@ -50,9 +49,8 @@ class FileInfoController
     protected function calculateHashes(SplFileInfo $file): array
     {
         return [
-            'md5' => hash_file('md5', (string) $file->getRealPath()),
-            'sha1' => hash_file('sha1', (string) $file->getRealPath()),
-            'sha256' => hash_file('sha256', (string) $file->getRealPath()),
+            'md5' => hash_file('md5', (string)$file->getRealPath()),
+            'sha256' => hash_file('sha256', (string)$file->getRealPath()), // Ensure this is the only sha variant used
         ];
     }
 }
