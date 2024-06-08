@@ -15,12 +15,11 @@ export default () => ({
         this.filePath = filePath;
         this.visible = true;
         try {
-            const response = await axios.get('?info=' + filePath);
+            this.hashes = await axios.get('?info=' + filePath);
         } catch (error) {
             this.error = error.response.request.statusText;
             this.loading = false;
         }
-        this.hashes = response.data.hashes;
     },
     hide() {
         this.visible = false;
@@ -28,4 +27,3 @@ export default () => ({
         this.error = null;
     }
 });
-
