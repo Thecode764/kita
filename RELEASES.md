@@ -51,3 +51,9 @@
 [Download full zip](https://github.com/Thecode764/kita/archive/refs/tags/version-2.5.zip)
 
 [View at official website](https://thecode764.github.io/kita/version/2.5)
+## Version 3.0
+[Download at release pages](https://github.com/Thecode764/kita/releases/tag/version-3.0)
+
+[Download full zip](https://github.com/Thecode764/kita/archive/refs/tags/version-3.0.zip)
+
+[View at official website](https://thecode764.github.io/kita/version/3.0)
