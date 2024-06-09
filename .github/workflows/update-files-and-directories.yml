@@ -10,13 +10,17 @@ jobs:
         steps: 
             - uses: actions/checkout@v4
             - name: Remove the file
-              run: rm FILES-AND-DIRECTORIES.md
+              run: rm -f FILES-AND-DIRECTORIES.md
             - name: Write the file
-              run: tree | tee -a README.md
+              run: |
+                echo "```" > FILES-AND-DIRECTORIES.md tree >> FILES-AND-DIRECTORIES.md echo "
+
+            - name: Set file permissions
+              run: chmod 644 FILES-AND-DIRECTORIES.md
             - name: Push
               run: |
-                    git config --global user.name "Github actions"
-                    git config --global user.email "actions@github.com"
-                    git add .
-                    git commit -m "📝 Update files and directories"
-                    git push
+                   git config --global user.name "Github actions"
+                   git config --global user.email "actions@github.com"
+                   git add.
+                   git commit -m "📝 Update files and directories"
+                   git push
